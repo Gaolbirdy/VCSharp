@@ -1,5 +1,0 @@
-C:\BegVCSharp\Chapter18\StreamWrite\bin\Debug\StreamWrite.exe.config
-C:\BegVCSharp\Chapter18\StreamWrite\bin\Debug\StreamWrite.exe
-C:\BegVCSharp\Chapter18\StreamWrite\bin\Debug\StreamWrite.pdb
-C:\BegVCSharp\Chapter18\StreamWrite\obj\Debug\StreamWrite.exe
-C:\BegVCSharp\Chapter18\StreamWrite\obj\Debug\StreamWrite.pdb

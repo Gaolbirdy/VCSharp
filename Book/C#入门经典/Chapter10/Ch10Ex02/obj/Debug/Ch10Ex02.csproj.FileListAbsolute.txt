@@ -1,6 +1,0 @@
-C:\BegVCSharp\Chapter10\Ch10Ex02\bin\Debug\Ch10Ex02.exe.config
-C:\BegVCSharp\Chapter10\Ch10Ex02\bin\Debug\Ch10Ex02.exe
-C:\BegVCSharp\Chapter10\Ch10Ex02\bin\Debug\Ch10Ex02.pdb
-C:\BegVCSharp\Chapter10\Ch10Ex02\obj\Debug\Ch10Ex02.csprojResolveAssemblyReference.cache
-C:\BegVCSharp\Chapter10\Ch10Ex02\obj\Debug\Ch10Ex02.exe
-C:\BegVCSharp\Chapter10\Ch10Ex02\obj\Debug\Ch10Ex02.pdb

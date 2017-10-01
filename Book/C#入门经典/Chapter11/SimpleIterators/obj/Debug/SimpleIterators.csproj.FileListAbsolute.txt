@@ -1,6 +1,0 @@
-C:\BegVCSharp\Chapter11\SimpleIterators\bin\Debug\SimpleIterators.exe.config
-C:\BegVCSharp\Chapter11\SimpleIterators\bin\Debug\SimpleIterators.exe
-C:\BegVCSharp\Chapter11\SimpleIterators\bin\Debug\SimpleIterators.pdb
-C:\BegVCSharp\Chapter11\SimpleIterators\obj\Debug\SimpleIterators.csprojResolveAssemblyReference.cache
-C:\BegVCSharp\Chapter11\SimpleIterators\obj\Debug\SimpleIterators.exe
-C:\BegVCSharp\Chapter11\SimpleIterators\obj\Debug\SimpleIterators.pdb

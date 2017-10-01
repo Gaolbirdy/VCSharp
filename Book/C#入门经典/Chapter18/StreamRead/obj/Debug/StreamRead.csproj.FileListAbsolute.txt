@@ -1,6 +1,0 @@
-C:\BegVCSharp\Chapter18\StreamRead\bin\Debug\StreamRead.exe.config
-C:\BegVCSharp\Chapter18\StreamRead\bin\Debug\StreamRead.exe
-C:\BegVCSharp\Chapter18\StreamRead\bin\Debug\StreamRead.pdb
-C:\BegVCSharp\Chapter18\StreamRead\obj\Debug\StreamRead.csprojResolveAssemblyReference.cache
-C:\BegVCSharp\Chapter18\StreamRead\obj\Debug\StreamRead.exe
-C:\BegVCSharp\Chapter18\StreamRead\obj\Debug\StreamRead.pdb

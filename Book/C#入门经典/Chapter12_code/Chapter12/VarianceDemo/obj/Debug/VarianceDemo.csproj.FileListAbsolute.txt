@@ -1,6 +1,0 @@
-C:\BegVCSharp\Chapter12\VarianceDemo\bin\Debug\VarianceDemo.exe.config
-C:\BegVCSharp\Chapter12\VarianceDemo\obj\Debug\VarianceDemo.csprojResolveAssemblyReference.cache
-C:\BegVCSharp\Chapter12\VarianceDemo\bin\Debug\VarianceDemo.exe
-C:\BegVCSharp\Chapter12\VarianceDemo\bin\Debug\VarianceDemo.pdb
-C:\BegVCSharp\Chapter12\VarianceDemo\obj\Debug\VarianceDemo.exe
-C:\BegVCSharp\Chapter12\VarianceDemo\obj\Debug\VarianceDemo.pdb

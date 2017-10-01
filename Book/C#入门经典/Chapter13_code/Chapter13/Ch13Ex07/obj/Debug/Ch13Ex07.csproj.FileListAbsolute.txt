@@ -1,9 +1,0 @@
-C:\BegVCSharp\Chapter13\Ch13Ex07\Ch13Ex07\bin\Debug\Ch13Ex07.exe.config
-C:\BegVCSharp\Chapter13\Ch13Ex07\Ch13Ex07\bin\Debug\Ch13Ex07.exe
-C:\BegVCSharp\Chapter13\Ch13Ex07\Ch13Ex07\bin\Debug\Ch13Ex07.pdb
-C:\BegVCSharp\Chapter13\Ch13Ex07\Ch13Ex07\obj\Debug\Ch13Ex07.csprojResolveAssemblyReference.cache
-C:\BegVCSharp\Chapter13\Ch13Ex07\Ch13Ex07\obj\Debug\Ch13Ex07.exe
-C:\BegVCSharp\Chapter13\Ch13Ex07\Ch13Ex07\obj\Debug\Ch13Ex07.pdb
-C:\BegVCSharp\Chapter13\Ch13Ex07\bin\Debug\Ch13Ex07.exe.config
-C:\BegVCSharp\Chapter13\Ch13Ex07\obj\Debug\Ch13Ex07.exe
-C:\BegVCSharp\Chapter13\Ch13Ex07\obj\Debug\Ch13Ex07.pdb

@@ -1,5 +1,0 @@
-C:\BegVCSharp\Chapter18\WriteFile\bin\Debug\WriteFile.exe.config
-C:\BegVCSharp\Chapter18\WriteFile\bin\Debug\WriteFile.exe
-C:\BegVCSharp\Chapter18\WriteFile\bin\Debug\WriteFile.pdb
-C:\BegVCSharp\Chapter18\WriteFile\obj\Debug\WriteFile.exe
-C:\BegVCSharp\Chapter18\WriteFile\obj\Debug\WriteFile.pdb
