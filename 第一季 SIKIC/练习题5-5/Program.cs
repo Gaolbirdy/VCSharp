@@ -24,12 +24,19 @@ namespace 练习题5_5
                 index++;
             }
 
-            //Array.Sort(numArray);
+            float[] numArray2 = numArray;
+            WriteLine("Array.Sort()排序结果：");
+            Array.Sort(numArray2);
+            foreach (float item in numArray)
+            {
+                Write(item + " ");
+            }
 
             // 冒泡排序
             for (int i = 0; i < numArray.Length - 1; i++)
             {
-                // 最大的数放在最后
+                // 最大的数放在最后，从数组第一个元素arr[0]遍历至倒数第二个arr[arr.Length-2],拿该元素与它后面的元素比较并交换
+                // j的每一轮遍历后，都能得到最后的arr[arr.Length - 1 - i]元素是最大的，而之前的元素仍是无序的
                 for (int j = 0; j < numArray.Length - 1 - i; j++)
                 {
                     if (numArray[j] > numArray[j + 1])
@@ -41,9 +48,11 @@ namespace 练习题5_5
                     }
                 }
             }
+            WriteLine("\n冒泡排序排序结果：");
             foreach (float item in numArray)
             {
-                WriteLine(item);
+                Write(item + " ");
+
             }
             ReadKey();
         }
