@@ -1,0 +1,6 @@
+D:\VCSharp\Chapter05\Ch05Test05\Ch05Test05\bin\Debug\Ch05Test05.exe.config
+D:\VCSharp\Chapter05\Ch05Test05\Ch05Test05\bin\Debug\Ch05Test05.exe
+D:\VCSharp\Chapter05\Ch05Test05\Ch05Test05\bin\Debug\Ch05Test05.pdb
+D:\VCSharp\Chapter05\Ch05Test05\Ch05Test05\obj\Debug\Ch05Test05.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter05\Ch05Test05\Ch05Test05\obj\Debug\Ch05Test05.exe
+D:\VCSharp\Chapter05\Ch05Test05\Ch05Test05\obj\Debug\Ch05Test05.pdb

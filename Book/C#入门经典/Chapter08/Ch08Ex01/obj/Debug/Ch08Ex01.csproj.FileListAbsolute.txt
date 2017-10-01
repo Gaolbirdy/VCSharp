@@ -1,0 +1,13 @@
+C:\BegVCSharp\Chapter08\Ch08Ex01\bin\Debug\Ch08Ex01.exe.config
+C:\BegVCSharp\Chapter08\Ch08Ex01\bin\Debug\Ch08Ex01.exe
+C:\BegVCSharp\Chapter08\Ch08Ex01\bin\Debug\Ch08Ex01.pdb
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\Ch08Ex01.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\MainWindow.baml
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\MainWindow.g.cs
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\App.g.cs
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\Ch08Ex01_MarkupCompile.cache
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\Ch08Ex01.g.resources
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\Ch08Ex01.Properties.Resources.resources
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\Ch08Ex01.csproj.GenerateResource.Cache
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\Ch08Ex01.exe
+C:\BegVCSharp\Chapter08\Ch08Ex01\obj\Debug\Ch08Ex01.pdb

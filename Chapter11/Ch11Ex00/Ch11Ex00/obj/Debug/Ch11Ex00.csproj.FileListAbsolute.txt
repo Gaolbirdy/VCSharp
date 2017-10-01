@@ -1,0 +1,6 @@
+D:\VCSharp\Chapter11\Ch11Ex00\Ch11Ex00\bin\Debug\Ch11Ex00.exe.config
+D:\VCSharp\Chapter11\Ch11Ex00\Ch11Ex00\bin\Debug\Ch11Ex00.exe
+D:\VCSharp\Chapter11\Ch11Ex00\Ch11Ex00\bin\Debug\Ch11Ex00.pdb
+D:\VCSharp\Chapter11\Ch11Ex00\Ch11Ex00\obj\Debug\Ch11Ex00.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter11\Ch11Ex00\Ch11Ex00\obj\Debug\Ch11Ex00.exe
+D:\VCSharp\Chapter11\Ch11Ex00\Ch11Ex00\obj\Debug\Ch11Ex00.pdb

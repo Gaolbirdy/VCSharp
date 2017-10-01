@@ -1,0 +1,7 @@
+D:\VCSharp\Chapter09\Ch09Test02\Ch09Test02\bin\Debug\Ch09Test02.exe.config
+D:\VCSharp\Chapter09\Ch09Test02\Ch09Test02\bin\Debug\Ch09Test02.exe
+D:\VCSharp\Chapter09\Ch09Test02\Ch09Test02\bin\Debug\Ch09Test02.pdb
+D:\VCSharp\Chapter09\Ch09Test02\Ch09Test02\obj\Debug\Ch09Test02.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter09\Ch09Test02\Ch09Test02\obj\Debug\Ch09Test02.csproj.CoreCompileInputs.cache
+D:\VCSharp\Chapter09\Ch09Test02\Ch09Test02\obj\Debug\Ch09Test02.exe
+D:\VCSharp\Chapter09\Ch09Test02\Ch09Test02\obj\Debug\Ch09Test02.pdb

@@ -1,0 +1,6 @@
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\MaxValueOverloads\bin\Debug\MaxValueOverloads.exe.config
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\MaxValueOverloads\bin\Debug\MaxValueOverloads.exe
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\MaxValueOverloads\bin\Debug\MaxValueOverloads.pdb
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\MaxValueOverloads\obj\Debug\MaxValueOverloads.csprojResolveAssemblyReference.cache
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\MaxValueOverloads\obj\Debug\MaxValueOverloads.exe
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\MaxValueOverloads\obj\Debug\MaxValueOverloads.pdb

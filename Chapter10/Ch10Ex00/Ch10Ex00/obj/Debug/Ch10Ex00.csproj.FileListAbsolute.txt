@@ -1,0 +1,7 @@
+D:\VCSharp\Chapter10\Ch10Ex00\Ch10Ex00\bin\Debug\Ch10Ex00.exe.config
+D:\VCSharp\Chapter10\Ch10Ex00\Ch10Ex00\bin\Debug\Ch10Ex00.exe
+D:\VCSharp\Chapter10\Ch10Ex00\Ch10Ex00\bin\Debug\Ch10Ex00.pdb
+D:\VCSharp\Chapter10\Ch10Ex00\Ch10Ex00\obj\Debug\Ch10Ex00.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter10\Ch10Ex00\Ch10Ex00\obj\Debug\Ch10Ex00.exe
+D:\VCSharp\Chapter10\Ch10Ex00\Ch10Ex00\obj\Debug\Ch10Ex00.pdb
+D:\VCSharp\Chapter10\Ch10Ex00\Ch10Ex00\obj\Debug\Ch10Ex00.csproj.CoreCompileInputs.cache

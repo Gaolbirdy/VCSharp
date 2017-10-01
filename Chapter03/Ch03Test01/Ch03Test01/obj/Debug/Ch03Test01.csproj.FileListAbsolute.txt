@@ -1,0 +1,6 @@
+D:\VCSharp\Chapter03\Ch03Test01\Ch03Test01\bin\Debug\Ch03Test01.exe.config
+D:\VCSharp\Chapter03\Ch03Test01\Ch03Test01\obj\Debug\Ch03Test01.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter03\Ch03Test01\Ch03Test01\bin\Debug\Ch03Test01.exe
+D:\VCSharp\Chapter03\Ch03Test01\Ch03Test01\bin\Debug\Ch03Test01.pdb
+D:\VCSharp\Chapter03\Ch03Test01\Ch03Test01\obj\Debug\Ch03Test01.exe
+D:\VCSharp\Chapter03\Ch03Test01\Ch03Test01\obj\Debug\Ch03Test01.pdb

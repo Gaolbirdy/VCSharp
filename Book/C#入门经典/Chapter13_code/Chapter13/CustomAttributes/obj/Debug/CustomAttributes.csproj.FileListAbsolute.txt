@@ -1,0 +1,6 @@
+C:\BegVCSharp\Chapter13\CustomAttributes\bin\Debug\CustomAttributes.exe.config
+C:\BegVCSharp\Chapter13\CustomAttributes\bin\Debug\CustomAttributes.exe
+C:\BegVCSharp\Chapter13\CustomAttributes\bin\Debug\CustomAttributes.pdb
+C:\BegVCSharp\Chapter13\CustomAttributes\obj\Debug\CustomAttributes.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter13\CustomAttributes\obj\Debug\CustomAttributes.exe
+C:\BegVCSharp\Chapter13\CustomAttributes\obj\Debug\CustomAttributes.pdb

@@ -1,0 +1,9 @@
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\Ch06Ex05\bin\Debug\Ch06Ex05.exe.config
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\Ch06Ex05\bin\Debug\Ch06Ex05.exe
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\Ch06Ex05\bin\Debug\Ch06Ex05.pdb
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\Ch06Ex05\obj\Debug\Ch06Ex05.csprojResolveAssemblyReference.cache
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\Ch06Ex05\obj\Debug\Ch06Ex05.exe
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\Ch06Ex05\obj\Debug\Ch06Ex05.pdb
+C:\BegVCSharp\Chapter06Code\Ch06Ex05\bin\Debug\Ch06Ex05.exe.config
+C:\BegVCSharp\Chapter06Code\Ch06Ex05\obj\Debug\Ch06Ex05.exe
+C:\BegVCSharp\Chapter06Code\Ch06Ex05\obj\Debug\Ch06Ex05.pdb

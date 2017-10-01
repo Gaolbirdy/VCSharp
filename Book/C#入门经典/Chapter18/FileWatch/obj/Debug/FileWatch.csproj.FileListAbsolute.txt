@@ -1,0 +1,13 @@
+C:\BegVCSharp\Chapter18\FileWatch\bin\Debug\FileWatch.exe.config
+C:\BegVCSharp\Chapter18\FileWatch\bin\Debug\FileWatch.exe
+C:\BegVCSharp\Chapter18\FileWatch\bin\Debug\FileWatch.pdb
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\FileWatch.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\MainWindow.baml
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\MainWindow.g.cs
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\App.g.cs
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\FileWatch_MarkupCompile.cache
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\FileWatch.g.resources
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\FileWatch.Properties.Resources.resources
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\FileWatch.csproj.GenerateResource.Cache
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\FileWatch.exe
+C:\BegVCSharp\Chapter18\FileWatch\obj\Debug\FileWatch.pdb

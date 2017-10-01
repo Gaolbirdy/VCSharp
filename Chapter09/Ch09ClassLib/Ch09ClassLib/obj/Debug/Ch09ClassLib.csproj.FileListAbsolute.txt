@@ -1,0 +1,5 @@
+D:\VCSharp\Chapter09\Ch09ClassLib\Ch09ClassLib\bin\Debug\Ch09ClassLib.dll
+D:\VCSharp\Chapter09\Ch09ClassLib\Ch09ClassLib\bin\Debug\Ch09ClassLib.pdb
+D:\VCSharp\Chapter09\Ch09ClassLib\Ch09ClassLib\obj\Debug\Ch09ClassLib.dll
+D:\VCSharp\Chapter09\Ch09ClassLib\Ch09ClassLib\obj\Debug\Ch09ClassLib.pdb
+D:\VCSharp\Chapter09\Ch09ClassLib\Ch09ClassLib\obj\Debug\Ch09ClassLib.csprojResolveAssemblyReference.cache

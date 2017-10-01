@@ -1,0 +1,6 @@
+C:\BegVCSharp\Chapter11\DictionaryAnimals\bin\Debug\DictionaryAnimals.exe.config
+C:\BegVCSharp\Chapter11\DictionaryAnimals\bin\Debug\DictionaryAnimals.exe
+C:\BegVCSharp\Chapter11\DictionaryAnimals\bin\Debug\DictionaryAnimals.pdb
+C:\BegVCSharp\Chapter11\DictionaryAnimals\obj\Debug\DictionaryAnimals.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter11\DictionaryAnimals\obj\Debug\DictionaryAnimals.exe
+C:\BegVCSharp\Chapter11\DictionaryAnimals\obj\Debug\DictionaryAnimals.pdb

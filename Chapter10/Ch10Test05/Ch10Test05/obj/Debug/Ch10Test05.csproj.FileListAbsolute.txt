@@ -1,0 +1,9 @@
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\bin\Debug\Ch10Test05.exe.config
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\bin\Debug\Ch10Test05.exe
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\bin\Debug\Ch10Test05.pdb
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\bin\Debug\Ch10CardLib.dll
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\bin\Debug\Ch10CardLib.pdb
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\obj\Debug\Ch10Test05.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\obj\Debug\Ch10Test05.csproj.CoreCompileInputs.cache
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\obj\Debug\Ch10Test05.exe
+D:\VCSharp\Chapter10\Ch10Test05\Ch10Test05\obj\Debug\Ch10Test05.pdb

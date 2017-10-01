@@ -1,0 +1,6 @@
+C:\BegVCSharp\Chapter18\Compressor\bin\Debug\Compressor.exe.config
+C:\BegVCSharp\Chapter18\Compressor\bin\Debug\Compressor.exe
+C:\BegVCSharp\Chapter18\Compressor\bin\Debug\Compressor.pdb
+C:\BegVCSharp\Chapter18\Compressor\obj\Debug\Compressor.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter18\Compressor\obj\Debug\Compressor.exe
+C:\BegVCSharp\Chapter18\Compressor\obj\Debug\Compressor.pdb

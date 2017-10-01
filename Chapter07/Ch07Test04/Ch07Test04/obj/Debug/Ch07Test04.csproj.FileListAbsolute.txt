@@ -1,0 +1,7 @@
+D:\VCSharp\Chapter07\Ch07Test04\Ch07Test04\bin\Debug\Ch07Test04.exe.config
+D:\VCSharp\Chapter07\Ch07Test04\Ch07Test04\bin\Debug\Ch07Test04.exe
+D:\VCSharp\Chapter07\Ch07Test04\Ch07Test04\bin\Debug\Ch07Test04.pdb
+D:\VCSharp\Chapter07\Ch07Test04\Ch07Test04\obj\Debug\Ch07Test04.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter07\Ch07Test04\Ch07Test04\obj\Debug\Ch07Test04.exe
+D:\VCSharp\Chapter07\Ch07Test04\Ch07Test04\obj\Debug\Ch07Test04.pdb
+D:\VCSharp\Chapter07\Ch07Test04\Ch07Test04\obj\Debug\Ch07Test04.csproj.CoreCompileInputs.cache

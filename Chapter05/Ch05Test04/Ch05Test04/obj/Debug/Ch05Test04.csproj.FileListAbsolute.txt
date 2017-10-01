@@ -1,0 +1,5 @@
+D:\VCSharp\Chapter05\Ch05Test04\Ch05Test04\bin\Debug\Ch05Test04.exe.config
+D:\VCSharp\Chapter05\Ch05Test04\Ch05Test04\bin\Debug\Ch05Test04.exe
+D:\VCSharp\Chapter05\Ch05Test04\Ch05Test04\bin\Debug\Ch05Test04.pdb
+D:\VCSharp\Chapter05\Ch05Test04\Ch05Test04\obj\Debug\Ch05Test04.exe
+D:\VCSharp\Chapter05\Ch05Test04\Ch05Test04\obj\Debug\Ch05Test04.pdb

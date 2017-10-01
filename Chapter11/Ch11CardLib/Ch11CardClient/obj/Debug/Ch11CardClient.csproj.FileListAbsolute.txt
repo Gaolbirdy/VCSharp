@@ -1,0 +1,8 @@
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\bin\Debug\Ch11CardClient.exe.config
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\bin\Debug\Ch11CardClient.exe
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\bin\Debug\Ch11CardClient.pdb
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\bin\Debug\Ch11CardLib.dll
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\bin\Debug\Ch11CardLib.pdb
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\obj\Debug\Ch11CardClient.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\obj\Debug\Ch11CardClient.exe
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardClient\obj\Debug\Ch11CardClient.pdb

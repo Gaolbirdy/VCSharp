@@ -1,0 +1,6 @@
+C:\BegVCSharp\Chapter07Code\AssertionDemo\bin\Debug\AssertionDemo.exe.config
+C:\BegVCSharp\Chapter07Code\AssertionDemo\bin\Debug\AssertionDemo.exe
+C:\BegVCSharp\Chapter07Code\AssertionDemo\bin\Debug\AssertionDemo.pdb
+C:\BegVCSharp\Chapter07Code\AssertionDemo\obj\Debug\AssertionDemo.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter07Code\AssertionDemo\obj\Debug\AssertionDemo.exe
+C:\BegVCSharp\Chapter07Code\AssertionDemo\obj\Debug\AssertionDemo.pdb

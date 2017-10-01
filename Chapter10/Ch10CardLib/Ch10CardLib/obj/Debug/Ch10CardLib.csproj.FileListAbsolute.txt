@@ -1,0 +1,6 @@
+D:\VCSharp\Chapter10\Ch10CardLib\Ch10CardLib\bin\Debug\Ch10CardLib.dll
+D:\VCSharp\Chapter10\Ch10CardLib\Ch10CardLib\bin\Debug\Ch10CardLib.pdb
+D:\VCSharp\Chapter10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.dll
+D:\VCSharp\Chapter10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.pdb
+D:\VCSharp\Chapter10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\BegVCSharp\Chapter11\Ch11CardLib\bin\Debug\Ch11CardLib.dll
+C:\BegVCSharp\Chapter11\Ch11CardLib\bin\Debug\Ch11CardLib.pdb
+C:\BegVCSharp\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.dll
+C:\BegVCSharp\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.pdb
+E:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\6-AuthorReview-2\Chapter11\Ch11CardLib\bin\Debug\Ch11CardLib.dll
+E:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\6-AuthorReview-2\Chapter11\Ch11CardLib\bin\Debug\Ch11CardLib.pdb
+E:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\6-AuthorReview-2\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.csprojResolveAssemblyReference.cache
+E:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\6-AuthorReview-2\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.dll
+E:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\6-AuthorReview-2\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.pdb
+D:\VCSharp\Book\C#入门经典\Chapter11\Ch11CardLib\bin\Debug\Ch11CardLib.dll
+D:\VCSharp\Book\C#入门经典\Chapter11\Ch11CardLib\bin\Debug\Ch11CardLib.pdb
+D:\VCSharp\Book\C#入门经典\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.csprojResolveAssemblyReference.cache
+D:\VCSharp\Book\C#入门经典\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.dll
+D:\VCSharp\Book\C#入门经典\Chapter11\Ch11CardLib\obj\Debug\Ch11CardLib.pdb

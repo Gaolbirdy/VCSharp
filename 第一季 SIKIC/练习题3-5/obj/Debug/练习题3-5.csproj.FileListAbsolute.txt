@@ -1,0 +1,7 @@
+D:\VCSharp\第一季 SIKIC\练习题3-5\bin\Debug\练习题3-5.exe.config
+D:\VCSharp\第一季 SIKIC\练习题3-5\bin\Debug\练习题3-5.exe
+D:\VCSharp\第一季 SIKIC\练习题3-5\bin\Debug\练习题3-5.pdb
+D:\VCSharp\第一季 SIKIC\练习题3-5\obj\Debug\练习题3-5.exe
+D:\VCSharp\第一季 SIKIC\练习题3-5\obj\Debug\练习题3-5.pdb
+D:\VCSharp\第一季 SIKIC\练习题3-5\obj\Debug\练习题3-5.csprojResolveAssemblyReference.cache
+D:\VCSharp\第一季 SIKIC\练习题3-5\obj\Debug\练习题3-5.csproj.CoreCompileInputs.cache

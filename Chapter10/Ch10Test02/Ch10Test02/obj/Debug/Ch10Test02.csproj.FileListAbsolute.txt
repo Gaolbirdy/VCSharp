@@ -1,0 +1,9 @@
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\bin\Debug\Ch10Test02.exe.config
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\bin\Debug\Ch10Test02.exe
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\bin\Debug\Ch10Test02.pdb
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\bin\Debug\Ch10Test01.dll
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\bin\Debug\Ch10Test01.pdb
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\obj\Debug\Ch10Test02.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\obj\Debug\Ch10Test02.csproj.CoreCompileInputs.cache
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\obj\Debug\Ch10Test02.exe
+D:\VCSharp\Chapter10\Ch10Test02\Ch10Test02\obj\Debug\Ch10Test02.pdb

@@ -1,0 +1,9 @@
+D:\VCSharp\Chapter05\Ch06Test01\Ch06Test01\bin\Debug\Ch06Test01.exe.config
+D:\VCSharp\Chapter05\Ch06Test01\Ch06Test01\bin\Debug\Ch06Test01.exe
+D:\VCSharp\Chapter05\Ch06Test01\Ch06Test01\bin\Debug\Ch06Test01.pdb
+D:\VCSharp\Chapter05\Ch06Test01\Ch06Test01\obj\Debug\Ch06Test01.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter05\Ch06Test01\Ch06Test01\obj\Debug\Ch06Test01.exe
+D:\VCSharp\Chapter05\Ch06Test01\Ch06Test01\obj\Debug\Ch06Test01.pdb
+D:\VCSharp\Chapter06\Ch06Test01\Ch06Test01\bin\Debug\Ch06Test01.exe.config
+D:\VCSharp\Chapter06\Ch06Test01\Ch06Test01\obj\Debug\Ch06Test01.exe
+D:\VCSharp\Chapter06\Ch06Test01\Ch06Test01\obj\Debug\Ch06Test01.pdb

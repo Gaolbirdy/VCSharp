@@ -1,0 +1,8 @@
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\bin\Debug\Ch09Ex02.exe.config
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\obj\Debug\Ch09Ex02.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\bin\Debug\Ch09Ex02.exe
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\bin\Debug\Ch09Ex02.pdb
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\bin\Debug\Ch09ClassLib.dll
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\bin\Debug\Ch09ClassLib.pdb
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\obj\Debug\Ch09Ex02.exe
+D:\VCSharp\Chapter09\Ch09Ex02\Ch09Ex02\obj\Debug\Ch09Ex02.pdb

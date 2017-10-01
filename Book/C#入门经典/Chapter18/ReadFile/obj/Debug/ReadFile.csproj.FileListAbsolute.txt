@@ -1,0 +1,6 @@
+C:\BegVCSharp\Chapter18\ReadFile\bin\Debug\ReadFile.exe.config
+C:\BegVCSharp\Chapter18\ReadFile\bin\Debug\ReadFile.exe
+C:\BegVCSharp\Chapter18\ReadFile\bin\Debug\ReadFile.pdb
+C:\BegVCSharp\Chapter18\ReadFile\obj\Debug\ReadFile.exe
+C:\BegVCSharp\Chapter18\ReadFile\obj\Debug\ReadFile.pdb
+C:\BegVCSharp\Chapter18\ReadFile\obj\Debug\ReadFile.csprojResolveAssemblyReference.cache

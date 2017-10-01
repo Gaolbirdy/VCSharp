@@ -1,0 +1,8 @@
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\bin\Debug\netstandard1.4\Ch08Test04.deps.json
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\bin\Debug\netstandard1.4\Ch08Test04.dll
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\bin\Debug\netstandard1.4\Ch08Test04.pdb
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\obj\Debug\netstandard1.4\Ch08Test04.csprojResolveAssemblyReference.cache
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\obj\Debug\netstandard1.4\Ch08Test04.csproj.CoreCompileInputs.cache
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\obj\Debug\netstandard1.4\Ch08Test04.AssemblyInfo.cs
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\obj\Debug\netstandard1.4\Ch08Test04.dll
+D:\VCSharp\Chapter08\Ch08Test04\Ch08Test04\obj\Debug\netstandard1.4\Ch08Test04.pdb

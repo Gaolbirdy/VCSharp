@@ -1,0 +1,9 @@
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\VariableScopeInLoops\bin\Debug\VariableScopeInLoops.exe.config
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\VariableScopeInLoops\bin\Debug\VariableScopeInLoops.exe
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\VariableScopeInLoops\bin\Debug\VariableScopeInLoops.pdb
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\VariableScopeInLoops\obj\Debug\VariableScopeInLoops.csprojResolveAssemblyReference.cache
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\VariableScopeInLoops\obj\Debug\VariableScopeInLoops.exe
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Ch06\Chapter06Code\VariableScopeInLoops\obj\Debug\VariableScopeInLoops.pdb
+C:\BegVCSharp\Chapter06Code\VariableScopeInLoops\bin\Debug\VariableScopeInLoops.exe.config
+C:\BegVCSharp\Chapter06Code\VariableScopeInLoops\obj\Debug\VariableScopeInLoops.exe
+C:\BegVCSharp\Chapter06Code\VariableScopeInLoops\obj\Debug\VariableScopeInLoops.pdb

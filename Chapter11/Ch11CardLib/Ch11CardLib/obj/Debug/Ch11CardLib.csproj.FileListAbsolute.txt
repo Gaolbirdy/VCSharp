@@ -1,0 +1,5 @@
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardLib\bin\Debug\Ch11CardLib.dll
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardLib\bin\Debug\Ch11CardLib.pdb
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardLib\obj\Debug\Ch11CardLib.dll
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardLib\obj\Debug\Ch11CardLib.pdb
+D:\VCSharp\Chapter11\Ch11CardLib\Ch11CardLib\obj\Debug\Ch11CardLib.csprojResolveAssemblyReference.cache

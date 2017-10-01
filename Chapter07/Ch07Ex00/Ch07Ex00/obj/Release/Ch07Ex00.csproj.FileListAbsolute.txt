@@ -1,0 +1,5 @@
+D:\VCSharp\Chapter07\Ch07Ex00\Ch07Ex00\bin\Release\Ch07Ex00.exe.config
+D:\VCSharp\Chapter07\Ch07Ex00\Ch07Ex00\bin\Release\Ch07Ex00.exe
+D:\VCSharp\Chapter07\Ch07Ex00\Ch07Ex00\bin\Release\Ch07Ex00.pdb
+D:\VCSharp\Chapter07\Ch07Ex00\Ch07Ex00\obj\Release\Ch07Ex00.exe
+D:\VCSharp\Chapter07\Ch07Ex00\Ch07Ex00\obj\Release\Ch07Ex00.pdb

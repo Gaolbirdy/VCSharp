@@ -1,0 +1,12 @@
+C:\BegVCSharp\Chapter13\Ch13Ex09\Ch13Ex09\bin\Debug\Ch13Ex09.exe.config
+C:\BegVCSharp\Chapter13\Ch13Ex09\Ch13Ex09\bin\Debug\Ch13Ex09.exe
+C:\BegVCSharp\Chapter13\Ch13Ex09\Ch13Ex09\bin\Debug\Ch13Ex09.pdb
+C:\BegVCSharp\Chapter13\Ch13Ex09\Ch13Ex09\obj\Debug\Ch13Ex09.csprojResolveAssemblyReference.cache
+C:\BegVCSharp\Chapter13\Ch13Ex09\Ch13Ex09\obj\Debug\Ch13Ex09.exe
+C:\BegVCSharp\Chapter13\Ch13Ex09\Ch13Ex09\obj\Debug\Ch13Ex09.pdb
+C:\BegVCSharp\Chapter13\Ch13Ex09\bin\Debug\Ch13Ex09.exe.config
+C:\BegVCSharp\Chapter13\Ch13Ex09\obj\Debug\Ch13Ex09.exe
+C:\BegVCSharp\Chapter13\Ch13Ex09\obj\Debug\Ch13Ex09.pdb
+C:\Temp\csharp\Chapter13\Ch13Ex09\bin\Debug\Ch13Ex09.exe.config
+C:\Temp\csharp\Chapter13\Ch13Ex09\obj\Debug\Ch13Ex09.exe
+C:\Temp\csharp\Chapter13\Ch13Ex09\obj\Debug\Ch13Ex09.pdb

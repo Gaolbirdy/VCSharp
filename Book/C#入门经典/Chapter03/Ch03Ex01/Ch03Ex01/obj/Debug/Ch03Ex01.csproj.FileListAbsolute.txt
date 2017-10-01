@@ -1,0 +1,9 @@
+c:\BegVCSharp\Chapter03\Ch03Ex01\Ch03Ex01\bin\Debug\Ch03Ex01.exe.config
+c:\BegVCSharp\Chapter03\Ch03Ex01\Ch03Ex01\bin\Debug\Ch03Ex01.exe
+c:\BegVCSharp\Chapter03\Ch03Ex01\Ch03Ex01\bin\Debug\Ch03Ex01.pdb
+c:\BegVCSharp\Chapter03\Ch03Ex01\Ch03Ex01\obj\Debug\Ch03Ex01.csprojResolveAssemblyReference.cache
+c:\BegVCSharp\Chapter03\Ch03Ex01\Ch03Ex01\obj\Debug\Ch03Ex01.exe
+c:\BegVCSharp\Chapter03\Ch03Ex01\Ch03Ex01\obj\Debug\Ch03Ex01.pdb
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Complete\Ch03\Chapter03\Ch03Ex01\Ch03Ex01\bin\Debug\Ch03Ex01.exe.config
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Complete\Ch03\Chapter03\Ch03Ex01\Ch03Ex01\obj\Debug\Ch03Ex01.exe
+D:\My Writtings\Beginning C#\1_Chapters-SourceCode-Figures\2-WordFiles\Complete\Ch03\Chapter03\Ch03Ex01\Ch03Ex01\obj\Debug\Ch03Ex01.pdb
