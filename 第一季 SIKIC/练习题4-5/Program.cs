@@ -13,6 +13,7 @@ namespace 练习题4_5
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
