@@ -7,6 +7,7 @@ using static System.Console;
 
 //4，编写一个应用程序用来输入的字符串进行加密，对于字母字符串加密规则如下：
 //‘a’→’d’ ‘b’→’e’ ‘w’→’z’ …… ‘x’→’a’ ‘y’→’b’ ‘z’→’c’‘A’→’D’ ‘B’→’E’ ‘W’→’Z’ …… ‘X’→’A’ ‘Y’→’B’ ‘Z’→’C’? 对于其他字符，不进行加密。
+// github test
 
 namespace 练习题5_4
 {
