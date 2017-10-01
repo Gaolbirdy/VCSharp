@@ -1,7 +1,0 @@
-D:\VCSharp\Chapter10\Test\Test\bin\Debug\Test.exe.config
-D:\VCSharp\Chapter10\Test\Test\bin\Debug\Test.exe
-D:\VCSharp\Chapter10\Test\Test\bin\Debug\Test.pdb
-D:\VCSharp\Chapter10\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
-D:\VCSharp\Chapter10\Test\Test\obj\Debug\Test.exe
-D:\VCSharp\Chapter10\Test\Test\obj\Debug\Test.pdb
-D:\VCSharp\Chapter10\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
