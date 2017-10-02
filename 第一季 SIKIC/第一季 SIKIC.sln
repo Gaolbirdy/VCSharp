@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		6.函数.ppt = 6.函数.ppt
 		6.编程练习题.txt = 6.编程练习题.txt
 		7.编程练习题.txt = 7.编程练习题.txt
+		code.xlsx = code.xlsx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "练习题3-4", "练习题3-4\练习题3-4.csproj", "{7AAB1AE3-7AC6-4048-A59A-DC2DA550A702}"

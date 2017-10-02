@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
+using static System.Convert;
 
 //6，喜欢西游记的同学肯定都知道悟空偷吃蟠桃的故事，你们一定都觉得这猴子太闹腾了，其实你们是有所不知：悟空是在研究一个数学问题！
 //什么问题？他研究的问题是蟠桃一共有多少个！
@@ -18,6 +20,13 @@ namespace 练习题5_6
     {
         static void Main(string[] args)
         {
+            Write("悟空第几天准备吃的时候只剩下一个桃子了？ ");
+            int day = ToInt32(ReadLine());
+            for (int i = 0; i < day; i++)
+            {
+
+            }
+            ReadKey();
         }
     }
 }
