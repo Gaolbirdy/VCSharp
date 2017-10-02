@@ -22,10 +22,11 @@ namespace 练习题5_5
                 numArray[i] = ToSingle(strArray[i]);
             }
 
-            float[] numArray2 = numArray;
+            float[] numArray2 = new float[numArray.Length];
+            numArray.CopyTo(numArray2, 0);
             WriteLine("Array.Sort()排序结果："); // 快速排序
             Array.Sort(numArray2);
-            foreach (float item in numArray)
+            foreach (float item in numArray2)
             {
                 Write(item + " ");
             }
@@ -47,7 +48,7 @@ namespace 练习题5_5
                     }
                 }
             }
-            WriteLine("\n冒泡排序排序结果：");
+            WriteLine("\n冒泡排序结果：");
             foreach (float item in numArray)
             {
                 Write(item + " ");
