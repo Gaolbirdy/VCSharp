@@ -20,11 +20,34 @@ namespace 练习题5_6
     {
         static void Main(string[] args)
         {
-            Write("悟空第几天准备吃的时候只剩下一个桃子了？ ");
-            int day = ToInt32(ReadLine());
-            for (int i = 0; i < day; i++)
-            {
+            int count = 1; // 当天还剩余桃子的数量
+            int countLastDay = 0; // 前一天剩余数量
+            Write($"悟空 第几天 准备吃的时候还剩下 {count} 个桃子了 ");
+            int day = ToInt32(ReadLine()); // 知道剩余数量的那天已经吃了几天
+            day = Math.Max(1, day);
+            int[] countEveryday = new int[day]; // 记录每一天剩余数
 
+            if (day == 1) // 如果是刚第一天吃，那么前一天的数量就等于当天的数量
+            {
+                countLastDay = count;
+                countEveryday[day-1] = countLastDay;
+            }
+            else
+            {
+                int i;
+                for (i = day; i > 1; i--) // 算n-1次即可得到第1天的值
+                {
+                    countEveryday[i - 1] = count; // 记录当天剩余的数量，从第n天回溯到第2天
+                    countLastDay = (count + 1) * 2; // x - x/2 -1 = y, 用当天第n天剩余数，算出第n-1天剩余数
+                    count = countLastDay; // 设定前一天第n-1天的剩余数，为下次计算第n-2天做准备
+                }
+                countEveryday[i - 1] = count; // 记录第1天剩余的数量
+            }
+            WriteLine("他第一天开始吃的时候桃子的数量： {0}", countLastDay);
+            Write("每一天吃时剩余的数量为：\n");
+            for (int i = 1; i <= day; i++)
+            {
+                WriteLine($"第{i}天 " + countEveryday[i - 1] + " ");
             }
             ReadKey();
         }
