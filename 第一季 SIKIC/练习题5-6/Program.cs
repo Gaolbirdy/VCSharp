@@ -35,7 +35,7 @@ namespace 练习题5_6
 
             for (int i = 1; i <= day; i++)
             {
-                WriteLine($"第{i}天 剩余 " + countEveryday[i - 1] + " ");
+                WriteLine($"第{i}天 剩余 " + countEveryday[i - 1]);
             }
             ReadKey();
         }
