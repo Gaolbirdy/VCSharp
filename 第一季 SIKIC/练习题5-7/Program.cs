@@ -19,7 +19,7 @@ namespace 练习题5_7
 
             int minIndex = 0;
             float minNumber = numArray[minIndex];
-            for (int i = 1; i < numArray.Length; i++)
+            for (int i = minIndex + 1; i < numArray.Length; i++)
             {
                 if (numArray[i] < minNumber)
                 {
@@ -28,7 +28,7 @@ namespace 练习题5_7
                 }
             }
             float temp = numArray[0];
-            numArray[0] = minNumber;
+            numArray[0] = numArray[minIndex];
             numArray[minIndex] = temp;
             WriteLine("找到最小值并和第0个元素交换后的数组：");
             foreach (float item in numArray)
