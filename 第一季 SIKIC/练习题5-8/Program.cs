@@ -30,29 +30,29 @@ namespace 练习题5_8
 
             WriteLine("\n输入要插入的整数：");
             int newNum = ToInt32(ReadLine());
-            int[] newnumArray = new int[numArray.Length + 1];
+            int[] newNumArray = new int[numArray.Length + 1];
             for (int i = 0; i < numArray.Length; i++)
             {
                 if(newNum < numArray[i])
                 {
-                    newnumArray[i] = newNum;
+                    newNumArray[i] = newNum;
                     for (int j = i; j < numArray.Length; j++)
                     {
-                        newnumArray[j + 1] = numArray[j];
+                        newNumArray[j + 1] = numArray[j];
                     }
                     break;
                 }
                 else
                 {
-                    newnumArray[i] = numArray[i];
+                    newNumArray[i] = numArray[i];
                     if (i == numArray.Length - 1)
                     {
-                        newnumArray[i + 1] = newNum;
+                        newNumArray[i + 1] = newNum;
                     }
                 }
             }
             WriteLine("插入新数字后：");
-            foreach (int item in newnumArray)
+            foreach (int item in newNumArray)
             {
                 Write(item + " ");
             }
