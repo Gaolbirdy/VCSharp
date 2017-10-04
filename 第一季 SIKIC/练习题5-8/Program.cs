@@ -42,13 +42,10 @@ namespace 练习题5_8
                     }
                     break;
                 }
-                else
+                newNumArray[i] = numArray[i];
+                if (i == numArray.Length - 1)
                 {
-                    newNumArray[i] = numArray[i];
-                    if (i == numArray.Length - 1)
-                    {
-                        newNumArray[i + 1] = newNum;
-                    }
+                    newNumArray[i + 1] = newNum;
                 }
             }
             WriteLine("插入新数字后：");
