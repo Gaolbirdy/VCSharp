@@ -10,6 +10,7 @@ namespace 练习题5_8
 {
     class Program
     {
+        // 试着用List实现
         static void Main(string[] args)
         {
             WriteLine("输入一组整数：");
