@@ -10,51 +10,89 @@ namespace 练习题5_8
 {
     class Program
     {
-        // 试着用List实现
         static void Main(string[] args)
         {
             WriteLine("输入一组整数：");
             string str = ReadLine();
             string[] strArray = str.Split(' ');
-            int[] numArray = new int[strArray.Length];
-            for (int i = 0; i < strArray.Length; i++)
+            List<int> numList = new List<int>();
+            foreach (string item in strArray)
             {
-                numArray[i] = ToInt32(strArray[i]);
+                numList.Add(ToInt32(item));
             }
 
-            Array.Sort(numArray);
+            numList.Sort();
             WriteLine("排序后：");
-            foreach (int item in numArray)
-            {
-                Write(item + " ");
-            }
+            Output(numList);
 
             WriteLine("\n输入要插入的整数：");
             int newNum = ToInt32(ReadLine());
-            int[] newNumArray = new int[numArray.Length + 1];
-            for (int i = 0; i < numArray.Length; i++)
+            WriteLine("插入新数字后：");
+            for (int i = 0; i < numList.Count; i++)
             {
-                if(newNum < numArray[i])
+                if (newNum < numList[i])
                 {
-                    newNumArray[i] = newNum;
-                    for (int j = i; j < numArray.Length; j++)
-                    {
-                        newNumArray[j + 1] = numArray[j];
-                    }
+                    numList.Insert(i, newNum);
                     break;
                 }
-                newNumArray[i] = numArray[i];
-                if (i == numArray.Length - 1)
+                if (i == numList.Count - 1) // 到最后一个索引时，新数字还是没小于该元素，则添加在List最后
                 {
-                    newNumArray[i + 1] = newNum;
+                    numList.Add(newNum); // Add后，Count数会增加，会导致无限循环下去，需要break
+                    break;
                 }
             }
-            WriteLine("插入新数字后：");
-            foreach (int item in newNumArray)
+            Output(numList);
+
+            // 用数组实现
+            //string[] strArray = str.Split(' ');
+            //int[] numArray = new int[strArray.Length];
+            //for (int i = 0; i < strArray.Length; i++)
+            //{
+            //    numArray[i] = ToInt32(strArray[i]);
+            //}
+
+            //Array.Sort(numArray);
+            //WriteLine("排序后：");
+            //foreach (int item in numArray)
+            //{
+            //    Write(item + " ");
+            //}
+
+            //WriteLine("\n输入要插入的整数：");
+            //int newNum = ToInt32(ReadLine());
+            //int[] newNumArray = new int[numArray.Length + 1];
+            //for (int i = 0; i < numArray.Length; i++)
+            //{
+            //    if(newNum < numArray[i])
+            //    {
+            //        newNumArray[i] = newNum;
+            //        for (int j = i; j < numArray.Length; j++)
+            //        {
+            //            newNumArray[j + 1] = numArray[j];
+            //        }
+            //        break;
+            //    }
+            //    newNumArray[i] = numArray[i];
+            //    if (i == numArray.Length - 1)
+            //    {
+            //        newNumArray[i + 1] = newNum;
+            //    }
+            //}
+            //WriteLine("插入新数字后：");
+            //foreach (int item in newNumArray)
+            //{
+            //    Write(item + " ");
+            //}
+
+            ReadKey();
+        }
+
+        static void Output(List<int> numList)
+        {
+            foreach (int item in numList)
             {
                 Write(item + " ");
             }
-            ReadKey();
         }
     }
 }
