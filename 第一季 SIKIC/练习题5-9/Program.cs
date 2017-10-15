@@ -15,7 +15,7 @@ namespace 练习题5_9
             int[] salary = { 2064, 1231, 24332, 34534, 345, 4243 };
 
             // 改用二维数组存储面值及相应需要的数量，6行2列
-            int[,] countEachValue = new int[6, 2] { { 100, 0 }, { 50, 0 }, { 10, 0 }, { 5, 0 }, { 2, 0 }, { 1, 0 } };
+            int[,] countEachValue = new int[,] { { 100, 0 }, { 50, 0 }, { 10, 0 }, { 5, 0 }, { 2, 0 }, { 1, 0 } };
             // 用两个数组存储面值和数量
             //int[] faceValue = {100, 50, 10, 5, 2, 1 };
             //int[] countEachValue = new int[faceValue.Length];
