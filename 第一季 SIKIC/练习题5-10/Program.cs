@@ -23,19 +23,19 @@ namespace 练习题5_10
                 Write("输入字符串：");
                 string str = ReadLine();
 
-                if(isKeywords(str))
+                if(IsKeywords(str))
                 {
                     WriteLine("不能是系统关键字");
                     continue;
                 }
 
-                if (!checkFirstChar(str))
+                if (!CheckFirstChar(str))
                 {
                     WriteLine("第一个字符不合法");
                     continue;
                 }
 
-                if (!checkOtherChar(str))
+                if (!CheckOtherChar(str))
                 {
                     WriteLine("后续字符不合法");
                     continue;
@@ -46,13 +46,13 @@ namespace 练习题5_10
             ReadKey();
         }
 
-        static bool checkFirstChar(string str) => isUnderline(str[0]) || isLetter(str[0]) || isAtChar(str[0]);
+        static bool CheckFirstChar(string str) => IsUnderline(str[0]) || IsLetter(str[0]) || IsAtChar(str[0]);
 
-        static bool checkOtherChar(string str)
+        static bool CheckOtherChar(string str)
         {
             for (int i = 1; i < str.Length; i++)
             {
-                if (isNumber(str[i]) || isUnderline(str[i]) || isLetter(str[i]))
+                if (IsNumber(str[i]) || IsUnderline(str[i]) || IsLetter(str[i]))
                     continue;
                 else
                     return false;
@@ -60,22 +60,24 @@ namespace 练习题5_10
             return true;
         }
 
-        static bool isKeywords(string str)
-        {
-            foreach (string item in keywords)
-            {
-                if (str == item)
-                    return true;
-            }
-            return false;
-        }
+        //static bool IsKeywords(string str)
+        //{
+        //    foreach (string item in keywords)
+        //    {
+        //        if (str == item)
+        //            return true;
+        //    }
+        //    return false;
+        //}
 
-        static bool isLetter(char c) => ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) ? true : false;
+        static bool IsKeywords(string str) => (Array.IndexOf(keywords, str) != -1) ? true : false;
 
-        static bool isNumber(char c) => (c >= '0' && c <= '9') ? true : false;
+        static bool IsLetter(char c) => ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) ? true : false;
 
-        static bool isUnderline(char c) => (c == '_') ? true : false;
+        static bool IsNumber(char c) => (c >= '0' && c <= '9') ? true : false;
 
-        static bool isAtChar(char c) => (c == '@') ? true : false;
+        static bool IsUnderline(char c) => (c == '_') ? true : false;
+
+        static bool IsAtChar(char c) => (c == '@') ? true : false;
     }
 }
