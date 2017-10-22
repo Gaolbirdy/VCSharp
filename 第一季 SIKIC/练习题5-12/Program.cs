@@ -31,26 +31,30 @@ namespace 练习题5_12
             const int minLength = 8;
             const int maxLength = 16;
             char[] specialChars = { '~', '!' , '@', '#', '$', '%', '^'};
-            byte safeLevel = 0;
-            bool isSafe = false;
 
             if (!IsLengthOk(password, minLength, maxLength))
             {
                 WriteLine("密码长度不合法：必须为8~16位");
-                return;
             }
-
-            for (int i = 0; i < password.Length; i++)
+            else
             {
-                IsUpperCase(password[i]);
-                IsLowerCase(password[i]);
-                IsNumber(password[i]);
+                int check1 = 0, check2 = 0, check3 = 0, check4 = 0;
+                for (int i = 0; i < password.Length; i++)
+                {
+                    if (IsUpperCase(password[i]))
+                        check1 = 1;
+                    else if (IsLowerCase(password[i]))
+                        check2 = 1;
+                    else if (IsNumber(password[i]))
+                        check3 = 1;
+                    else if (IsSpecialChar(password[i], specialChars))
+                        check4 = 1;
+                }
+                int safeLevel = check1 + check2 + check3 + check4;
+                bool isSafe = safeLevel >= 3 ? true : false;
+                string safe = isSafe ? "是安全的密码" : "不是安全的密码";
+                WriteLine(safe);
             }
-
-            isSafe = safeLevel >= 3 ? true : false;
-
-            string safe = isSafe ? "是安全的密码" : "不是安全的密码";
-            WriteLine(safe);
             ReadKey();
         }
 
@@ -60,7 +64,7 @@ namespace 练习题5_12
 
         static bool IsNumber(char c) => (c >= '0' && c <= '9') ? true : false;
 
-        static bool HasSpecialChar(string str, char[] chars) => (str.IndexOfAny(chars) != -1) ? true : false;
+        static bool IsSpecialChar(char c, char[] chars) => (Array.IndexOf(chars, c) != -1) ? true : false;
 
         static bool IsLengthOk(string str, int min, int max) => (str.Length >= min && str.Length <= max) ? true : false;
     }
