@@ -4,3 +4,4 @@ D:\VCSharp\第一季 SIKIC\练习题4-4\bin\Debug\练习题4-4.pdb
 D:\VCSharp\第一季 SIKIC\练习题4-4\obj\Debug\练习题4-4.csproj.CoreCompileInputs.cache
 D:\VCSharp\第一季 SIKIC\练习题4-4\obj\Debug\练习题4-4.exe
 D:\VCSharp\第一季 SIKIC\练习题4-4\obj\Debug\练习题4-4.pdb
+D:\VCSharp\第一季 SIKIC\练习题4-4\obj\Debug\练习题4-4.csprojResolveAssemblyReference.cache
