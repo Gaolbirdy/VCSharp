@@ -30,7 +30,7 @@ namespace Ch18Ex00
             FileStream aFile = new FileStream(fileInfo,FileMode.Create,FileAccess.ReadWrite);
             aFile.Seek(8, SeekOrigin.Begin);
             aFile.Seek(2, SeekOrigin.Current);
-            aFile.Seek(-5, SeekOrigin.End);
+            aFile.Seek(0, SeekOrigin.End);
 
             ReadKey();
         }

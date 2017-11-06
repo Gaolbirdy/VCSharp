@@ -17,7 +17,7 @@ namespace Ch18ReadFile
             try
             {
                 FileStream aFile = new FileStream("../../Test.txt", FileMode.Open);
-                aFile.Seek(8, SeekOrigin.Begin);
+                aFile.Seek(3, SeekOrigin.Begin);
                 aFile.Read(byteData, 0, 200);
             }
             catch (IOException e)
