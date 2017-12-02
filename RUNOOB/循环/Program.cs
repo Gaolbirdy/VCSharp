@@ -67,21 +67,63 @@ namespace Loops
         //    Console.ReadLine();
         //}
 
+        //static void Main()
+        //{
+        //    int i, j;
+
+        //    for (i = 2;  i < 100; i++)
+        //    {
+        //        for (j = 2; j <= (i / j); j++)
+        //        {
+        //            Console.WriteLine("数字 {0}，j: {1}, (i / j): {2}", i, j, (i / j));
+        //            if ((i % j) == 0)
+        //                break;
+        //        }
+        //        if(j > (i / j))
+        //            Console.WriteLine("{0} 是质数，j: {1}, (i / j): {2}", i, j, (i / j));
+        //    }
+
+        //    Console.ReadLine();
+        //}
+
+        //static void Main()
+        //{
+        //    for (; ; )
+        //    {
+        //        Console.WriteLine("Hey! I am Trapped");
+        //    }
+        //}
+
+        //static void Main()
+        //{
+        //    int a = 10;
+
+        //    while (a < 20)
+        //    {
+        //        Console.WriteLine("a 的值： {0}", a);
+        //        a++;
+        //        if (a > 15)
+        //        {
+        //            break;
+        //        }
+        //    }
+        //    Console.ReadLine();
+        //}
+
         static void Main()
         {
-            int i, j;
+            int a = 10;
 
-            for (i = 2;  i < 100; i++)
+            do
             {
-                for (j = 2; j <= (i / j); j++)
+                if (a == 15)
                 {
-                    Console.WriteLine("数字 {0}，j: {1}, (i / j): {2}", i, j, (i / j));
-                    if ((i % j) == 0)
-                        break;
+                    a = a + 1;
+                    continue;
                 }
-                if(j > (i / j))
-                    Console.WriteLine("{0} 是质数，j: {1}, (i / j): {2}", i, j, (i / j));
-            }
+                Console.WriteLine("a 的值：{0}", a);
+                a++;
+            } while (a < 20);
 
             Console.ReadLine();
         }
