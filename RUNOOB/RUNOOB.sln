@@ -51,6 +51,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "预处理器指令", "预�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异常处理", "异常处理\异常处理.csproj", "{4F553E3C-11B2-4282-BCD9-5AE88D5F16AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件的输入与输出", "文件的输入与输出\文件的输入与输出.csproj", "{B90D20DB-286D-49DF-8EEA-589C1A13A414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件的输入与输出 文本文件的读写", "文件的输入与输出 文本文件的读写\文件的输入与输出 文本文件的读写.csproj", "{7A267100-FE39-46B0-905A-7CDCE6AA217A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件的输入与输出 二进制文件的读写", "文件的输入与输出 二进制文件的读写\文件的输入与输出 二进制文件的读写.csproj", "{5F98D6BB-6918-4D62-BBDB-816DFB521F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件的输入与输出 Windows 文件系统的操作", "文件的输入与输出 Windows 文件系统的操作\文件的输入与输出 Windows 文件系统的操作.csproj", "{E8457890-9218-4C43-A879-774A6FCD2FED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +161,22 @@ Global
 		{4F553E3C-11B2-4282-BCD9-5AE88D5F16AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F553E3C-11B2-4282-BCD9-5AE88D5F16AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F553E3C-11B2-4282-BCD9-5AE88D5F16AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90D20DB-286D-49DF-8EEA-589C1A13A414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90D20DB-286D-49DF-8EEA-589C1A13A414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90D20DB-286D-49DF-8EEA-589C1A13A414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90D20DB-286D-49DF-8EEA-589C1A13A414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A267100-FE39-46B0-905A-7CDCE6AA217A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A267100-FE39-46B0-905A-7CDCE6AA217A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A267100-FE39-46B0-905A-7CDCE6AA217A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A267100-FE39-46B0-905A-7CDCE6AA217A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F98D6BB-6918-4D62-BBDB-816DFB521F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F98D6BB-6918-4D62-BBDB-816DFB521F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F98D6BB-6918-4D62-BBDB-816DFB521F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F98D6BB-6918-4D62-BBDB-816DFB521F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8457890-9218-4C43-A879-774A6FCD2FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8457890-9218-4C43-A879-774A6FCD2FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8457890-9218-4C43-A879-774A6FCD2FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8457890-9218-4C43-A879-774A6FCD2FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
