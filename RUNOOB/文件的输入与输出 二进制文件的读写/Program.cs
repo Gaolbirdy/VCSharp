@@ -23,19 +23,19 @@ namespace BinaryFileApplication
             {
                 bw = new BinaryWriter(new FileStream("mydata", FileMode.Create));
             }
-            catch (Exception e)
+            catch (IOException e)
             {
                 Console.WriteLine(e.Message + "\n Cannot create file.");
                 return;
             }
 
+            // 写入文件
             try
             {
                 bw.Write(i);
                 bw.Write(d);
                 bw.Write(b);
                 bw.Write(s);
-
             }
             catch (IOException e)
             {
@@ -53,6 +53,10 @@ namespace BinaryFileApplication
             {
                 Console.WriteLine(e.Message + "\n Cannot open file.");
                 return;
+            }
+            finally
+            {
+                //Console.ReadKey();
             }
 
             try
