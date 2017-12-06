@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件的输入与输出 Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "正则表达式", "正则表达式\正则表达式.csproj", "{02FB6286-88D1-42F9-AC07-396E1131E123}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "特性", "特性\特性.csproj", "{21CC0485-DA5C-4890-ADFE-15C582FC7FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{02FB6286-88D1-42F9-AC07-396E1131E123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02FB6286-88D1-42F9-AC07-396E1131E123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02FB6286-88D1-42F9-AC07-396E1131E123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21CC0485-DA5C-4890-ADFE-15C582FC7FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CC0485-DA5C-4890-ADFE-15C582FC7FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CC0485-DA5C-4890-ADFE-15C582FC7FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CC0485-DA5C-4890-ADFE-15C582FC7FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
