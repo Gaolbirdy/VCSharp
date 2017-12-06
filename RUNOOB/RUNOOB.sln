@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件的输入与输出 �
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件的输入与输出 Windows 文件系统的操作", "文件的输入与输出 Windows 文件系统的操作\文件的输入与输出 Windows 文件系统的操作.csproj", "{E8457890-9218-4C43-A879-774A6FCD2FED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "正则表达式", "正则表达式\正则表达式.csproj", "{02FB6286-88D1-42F9-AC07-396E1131E123}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{E8457890-9218-4C43-A879-774A6FCD2FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8457890-9218-4C43-A879-774A6FCD2FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8457890-9218-4C43-A879-774A6FCD2FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FB6286-88D1-42F9-AC07-396E1131E123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FB6286-88D1-42F9-AC07-396E1131E123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FB6286-88D1-42F9-AC07-396E1131E123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FB6286-88D1-42F9-AC07-396E1131E123}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
