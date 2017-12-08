@@ -65,6 +65,7 @@ using System.Threading.Tasks;
 //            s.Age = 9;
 
 //            Console.WriteLine("Student Info: {0}", s);
+//            Console.WriteLine("Student Info: {0}", s.ToString());
 
 //            s.Age += 1;
 //            Console.WriteLine("Student Info: {0}", s);
