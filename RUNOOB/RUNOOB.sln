@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "索引器", "索引器\索�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托", "委托\委托.csproj", "{4D4D2F41-C514-42C6-BB39-20BD96144684}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "事件", "事件\事件.csproj", "{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{4D4D2F41-C514-42C6-BB39-20BD96144684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D4D2F41-C514-42C6-BB39-20BD96144684}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D4D2F41-C514-42C6-BB39-20BD96144684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
