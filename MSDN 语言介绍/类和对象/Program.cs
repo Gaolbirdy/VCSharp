@@ -6,10 +6,34 @@ using System.Threading.Tasks;
 
 namespace 类和对象
 {
-    class Program
+    //public class Point
+    //{
+    //    public int x, y;
+
+    //    public Point(int x, int y)
+    //    {
+    //        this.x = x;
+    //        this.y = y;
+    //    }
+
+    //    static void Main()
+    //    {
+    //        Point p1 = new Point(0, 0);
+    //        Point p21 = new Point(10, 0);
+    //    }
+    //}
+
+    public class Pair<TFirst, TSecond>
     {
-        static void Main(string[] args)
+        public TFirst First;
+        public TSecond second;
+
+        static void Main()
         {
+            Pair<int,string> pair = new Pair<int, string> { First = 1, second = "two" };
+            //Pair<char,bool> pair2 = new Pair<char, bool>();
+            int i = pair.First; // TFirst is int
+            string s = pair.second; // TSecond is string
         }
     }
 }
