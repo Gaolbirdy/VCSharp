@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "语言介绍", "语言介绍\语言介绍.csproj", "{1BD2CFAB-7D9E-4A72-9954-5EC9A6706C90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "程序结构", "程序结构\程序结构.csproj", "{70CCA9F3-9640-41BB-98F0-8C6A3304B8F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "程序结构 类库", "程序结构 类库\程序结构 类库.csproj", "{2A04C2CF-0C71-4836-9F5E-B46DA16E1127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1BD2CFAB-7D9E-4A72-9954-5EC9A6706C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD2CFAB-7D9E-4A72-9954-5EC9A6706C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD2CFAB-7D9E-4A72-9954-5EC9A6706C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CCA9F3-9640-41BB-98F0-8C6A3304B8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CCA9F3-9640-41BB-98F0-8C6A3304B8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CCA9F3-9640-41BB-98F0-8C6A3304B8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CCA9F3-9640-41BB-98F0-8C6A3304B8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A04C2CF-0C71-4836-9F5E-B46DA16E1127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A04C2CF-0C71-4836-9F5E-B46DA16E1127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A04C2CF-0C71-4836-9F5E-B46DA16E1127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A04C2CF-0C71-4836-9F5E-B46DA16E1127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
