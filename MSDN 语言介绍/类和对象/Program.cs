@@ -126,19 +126,57 @@ namespace 方法
     //    }
     //}
 
-    class OutExample
-    {
-        static void Divide(int x, int y, out int result, out int remainder)
-        {
-            result = x / y;
-            remainder = x % y;
-        }
+    //class OutExample
+    //{
+    //    static void Divide(int x, int y, out int result, out int remainder)
+    //    {
+    //        result = x / y;
+    //        remainder = x % y;
+    //    }
 
-        public static void Main()
-        {
-            Divide(10, 3, out int res, out int rem);
-            WriteLine("res: {0} rem: {1}", res, rem);
-            ReadKey();
-        }
+    //    public static void Main()
+    //    {
+    //        Divide(10, 3, out int res, out int rem);
+    //        WriteLine("res: {0} rem: {1}", res, rem);
+    //        ReadKey();
+    //    }
+    //}
+
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int x = 1, y = 2, z = 3;
+    //        WriteLine("x={0} y={1} z={2}", x, y, z);
+
+    //        string s = "x={0} y={1} z={2}";
+    //        object[] args = new object[3];
+    //        args[0] = x;
+    //        args[1] = y;
+    //        args[2] = z;
+    //        WriteLine(s, args);
+    //        ReadKey();
+    //    }
+    //}
+
+    //class Squares
+    //{
+    //    public static void Main()
+    //    {
+    //        int i = 0;
+    //        int j;
+    //        while (i < 10)
+    //        {
+    //            j = i * i;
+    //            WriteLine($"{i} x {i} = {j}");
+    //            i = i + 1;
+    //        }
+    //        ReadKey();
+    //    }
+    //}
+
+    class Entity
+    {
+
     }
 }
