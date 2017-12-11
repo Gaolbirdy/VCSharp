@@ -175,8 +175,77 @@ namespace 方法
     //    }
     //}
 
-    class Entity
-    {
+    //class Entity
+    //{
+    //    static int nextSerialNo;
+    //    int serialNo;
 
+    //    public Entity()
+    //    {
+    //        serialNo = nextSerialNo++;
+    //    }
+
+    //    public int GetSerialNo()
+    //    {
+    //        return serialNo;
+    //    }
+
+    //    public static int GetNextSerialNo()
+    //    {
+    //        return nextSerialNo;
+    //    }
+
+    //    public static void SetNextSerialNo(int value)
+    //    {
+    //        nextSerialNo = value;
+    //    }
+    //}
+    //class EntityExample
+    //{
+    //    static void Main()
+    //    {
+    //        Entity.SetNextSerialNo(1000);
+    //        Entity e1 = new Entity();
+    //        Entity e2 = new Entity();
+    //        WriteLine(e1.GetSerialNo());    // Outpus "1000"
+    //        WriteLine(e2.GetSerialNo());    // Outpus "1001"
+    //        WriteLine(Entity.GetNextSerialNo());    // Outpus "1002"
+    //        ReadKey();
+    //    }
+    //}
+
+    public abstract class Expression
+    {
+        public abstract double Evaluate(Dictionary<string, object> vars);
+    }
+
+    public class Constant : Expression
+    {
+        double value;
+
+        public Constant(double value)
+        {
+            this.value = value;
+        }
+
+        public override double Evaluate(Dictionary<string, object> vars)
+        {
+            return value;
+        }
+    }
+
+    public class VariableReference : Expression
+    {
+        string name;
+
+        public VariableReference(string name)
+        {
+            this.name = name;
+        }
+
+        public override double Evaluate(Dictionary<string, object> vars)
+        {
+            object value = vars[name];
+        }
     }
 }
