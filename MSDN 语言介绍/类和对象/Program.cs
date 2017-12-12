@@ -216,36 +216,82 @@ namespace 方法
 
     public abstract class Expression
     {
+        // 虚方法
         public abstract double Evaluate(Dictionary<string, object> vars);
     }
 
+    // 常量
     public class Constant : Expression
     {
+        // 字段
         double value;
 
+        // 构造方法
         public Constant(double value)
         {
             this.value = value;
         }
 
+        // 重写方法 求值
         public override double Evaluate(Dictionary<string, object> vars)
         {
             return value;
         }
     }
 
+    // 变量引用
     public class VariableReference : Expression
     {
+        // 字段
         string name;
 
+        // 构造方法
         public VariableReference(string name)
         {
             this.name = name;
         }
 
+        // 重写方法 根据字典求值
         public override double Evaluate(Dictionary<string, object> vars)
         {
             object value = vars[name];
+            if (value == null)
+            {
+                throw new Exception("Unknown variable: " + name);
+            }
+            return Convert.ToDouble(value);
+        }
+    }
+
+    // 算术运算
+    public class Operation : Expression
+    {
+        // 字段
+        Expression left;
+        char op;
+        Expression right;
+
+        // 构造方法
+        public Operation(Expression left, char op, Expression right)
+        {
+            this.left = left;
+            this.op = op;
+            this.right = right;
+        }
+
+        // 重写方法
+        public override double Evaluate(Dictionary<string, object> vars)
+        {
+            double x = left.Evaluate(vars);
+            double y = right.Evaluate(vars);
+            switch (op)
+            {
+                case '+': return x + y;
+                case '-': return x - y;
+                case '*': return x * y;
+                case '/': return x / y;
+            }
+            throw new Exception("Unknown operator");
         }
     }
 }
