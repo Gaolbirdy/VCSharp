@@ -294,4 +294,22 @@ namespace 方法
             throw new Exception("Unknown operator");
         }
     }
+
+    class InheritanceExample
+    {
+        public static void Main()
+        {
+            Expression e = new Operation(
+                new VariableReference("x"),
+                '*',
+                new Operation(
+                    new VariableReference("y"),
+                    '+',
+                    new Constant(2)
+                )
+            );
+
+            ReadKey();
+        }
+    }
 }

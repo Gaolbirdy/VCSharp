@@ -70,29 +70,29 @@ using static System.Console;
 //    }
 //}
 
-//namespace switch语句
-//{
-//    class SwitchStatement
-//    {
-//        static void Main(string[] args)
-//        {
-//            int n = args.Length;
-//            switch (n)
-//            {
-//                case 0:
-//                    WriteLine("No arguments");
-//                    break;
-//                case 1:
-//                    WriteLine("One arguments");
-//                    break;
-//                default:
-//                    WriteLine($"{n} arguments");
-//                    break;
-//            }
-//            ReadKey();
-//        }
-//    }
-//}
+namespace switch语句
+{
+    class SwitchStatement
+    {
+        static void Main(string[] args)
+        {
+            int n = args.Length;
+            switch (n)
+            {
+                case 0:
+                    WriteLine("No arguments");
+                    break;
+                case 1:
+                    WriteLine("One arguments");
+                    break;
+                default:
+                    WriteLine($"{n} arguments");
+                    break;
+            }
+            ReadKey();
+        }
+    }
+}
 
 //namespace while语句
 //{
@@ -353,18 +353,18 @@ using static System.Console;
 //    }
 //}
 
-namespace using语句
-{
-    class UsingStatement
-    {
-        static void Main()
-        {
-            using (TextWriter w = File.CreateText("text.txt"))
-            {
-                w.WriteLine("Line one");
-                w.WriteLine("Line two");
-                w.WriteLine("Line trree");
-            }
-        }
-    }
-}
+//namespace using语句
+//{
+//    class UsingStatement
+//    {
+//        static void Main()
+//        {
+//            using (TextWriter w = File.CreateText("text.txt"))
+//            {
+//                w.WriteLine("Line one");
+//                w.WriteLine("Line two");
+//                w.WriteLine("Line trree");
+//            }
+//        }
+//    }
+//}
