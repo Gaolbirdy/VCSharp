@@ -254,6 +254,7 @@ namespace 方法
         // 重写方法 根据字典求值
         public override double Evaluate(Dictionary<string, object> vars)
         {
+            WriteLine(vars[name]);
             object value = vars[name];
             if (value == null)
             {
@@ -308,6 +309,13 @@ namespace 方法
                     new Constant(2)
                 )
             );
+            Dictionary<string, object> vars = new Dictionary<string, object>();
+            vars["x"] = 3;
+            //vars["y"] = 5;
+            WriteLine(e.Evaluate(vars));    // Outputs "21"
+            vars["x"] = 1.5;
+            vars["y"] = 9;
+            WriteLine(e.Evaluate(vars));    // Outputs "16.5"
 
             ReadKey();
         }
