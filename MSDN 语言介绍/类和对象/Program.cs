@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+//using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -106,218 +106,276 @@ using static System.Console;
 //    }
 //}
 
-namespace 方法
+//namespace 方法
+//{
+//    //class RefExample
+//    //{
+//    //    static void Swap(ref int x, ref int y)
+//    //    {
+//    //        int temp = x;
+//    //        x = y;
+//    //        y = temp;
+//    //    }
+
+//    //    public static void Main()
+//    //    {
+//    //        int i = 1, j = 2;
+//    //        Swap(ref i, ref j);
+//    //        WriteLine($"i: {i} j: {j}");
+//    //        ReadKey();
+//    //    }
+//    //}
+
+//    //class OutExample
+//    //{
+//    //    static void Divide(int x, int y, out int result, out int remainder)
+//    //    {
+//    //        result = x / y;
+//    //        remainder = x % y;
+//    //    }
+
+//    //    public static void Main()
+//    //    {
+//    //        Divide(10, 3, out int res, out int rem);
+//    //        WriteLine("res: {0} rem: {1}", res, rem);
+//    //        ReadKey();
+//    //    }
+//    //}
+
+//    //class Program
+//    //{
+//    //    static void Main()
+//    //    {
+//    //        int x = 1, y = 2, z = 3;
+//    //        WriteLine("x={0} y={1} z={2}", x, y, z);
+
+//    //        string s = "x={0} y={1} z={2}";
+//    //        object[] args = new object[3];
+//    //        args[0] = x;
+//    //        args[1] = y;
+//    //        args[2] = z;
+//    //        WriteLine(s, args);
+//    //        ReadKey();
+//    //    }
+//    //}
+
+//    //class Squares
+//    //{
+//    //    public static void Main()
+//    //    {
+//    //        int i = 0;
+//    //        int j;
+//    //        while (i < 10)
+//    //        {
+//    //            j = i * i;
+//    //            WriteLine($"{i} x {i} = {j}");
+//    //            i = i + 1;
+//    //        }
+//    //        ReadKey();
+//    //    }
+//    //}
+
+//    //class Entity
+//    //{
+//    //    static int nextSerialNo;
+//    //    int serialNo;
+
+//    //    public Entity()
+//    //    {
+//    //        serialNo = nextSerialNo++;
+//    //    }
+
+//    //    public int GetSerialNo()
+//    //    {
+//    //        return serialNo;
+//    //    }
+
+//    //    public static int GetNextSerialNo()
+//    //    {
+//    //        return nextSerialNo;
+//    //    }
+
+//    //    public static void SetNextSerialNo(int value)
+//    //    {
+//    //        nextSerialNo = value;
+//    //    }
+//    //}
+//    //class EntityExample
+//    //{
+//    //    static void Main()
+//    //    {
+//    //        Entity.SetNextSerialNo(1000);
+//    //        Entity e1 = new Entity();
+//    //        Entity e2 = new Entity();
+//    //        WriteLine(e1.GetSerialNo());    // Outpus "1000"
+//    //        WriteLine(e2.GetSerialNo());    // Outpus "1001"
+//    //        WriteLine(Entity.GetNextSerialNo());    // Outpus "1002"
+//    //        ReadKey();
+//    //    }
+//    //}
+
+//    //public abstract class Expression
+//    //{
+//    //    // 虚方法
+//    //    public abstract double Evaluate(Dictionary<string, object> vars);
+//    //}
+
+//    //// 常量
+//    //public class Constant : Expression
+//    //{
+//    //    // 字段
+//    //    double value;
+
+//    //    // 构造方法
+//    //    public Constant(double value)
+//    //    {
+//    //        this.value = value;
+//    //    }
+
+//    //    // 重写方法 求值
+//    //    public override double Evaluate(Dictionary<string, object> vars)
+//    //    {
+//    //        return value;
+//    //    }
+//    //}
+
+//    //// 变量引用
+//    //public class VariableReference : Expression
+//    //{
+//    //    // 字段
+//    //    string name;
+
+//    //    // 构造方法
+//    //    public VariableReference(string name)
+//    //    {
+//    //        this.name = name;
+//    //    }
+
+//    //    // 重写方法 根据字典求值
+//    //    public override double Evaluate(Dictionary<string, object> vars)
+//    //    {
+//    //        object value = vars[name];
+//    //        if (value == null)
+//    //        {
+//    //            throw new Exception("Unknown variable: " + name);
+//    //        }
+//    //        return Convert.ToDouble(value);
+//    //    }
+//    //}
+
+//    //// 算术运算
+//    //public class Operation : Expression
+//    //{
+//    //    // 字段
+//    //    Expression left;
+//    //    char op;
+//    //    Expression right;
+
+//    //    // 构造方法
+//    //    public Operation(Expression left, char op, Expression right)
+//    //    {
+//    //        this.left = left;
+//    //        this.op = op;
+//    //        this.right = right;
+//    //    }
+
+//    //    // 重写方法
+//    //    public override double Evaluate(Dictionary<string, object> vars)
+//    //    {
+//    //        double x = left.Evaluate(vars);
+//    //        double y = right.Evaluate(vars);
+//    //        switch (op)
+//    //        {
+//    //            case '+': return x + y;
+//    //            case '-': return x - y;
+//    //            case '*': return x * y;
+//    //            case '/': return x / y;
+//    //        }
+//    //        throw new Exception("Unknown operator");
+//    //    }
+//    //}
+
+//    //class InheritanceExample
+//    //{
+//    //    public static void Main()
+//    //    {
+//    //        Expression e = new Operation(
+//    //            new VariableReference("x"),
+//    //            '*',
+//    //            new Operation(
+//    //                new VariableReference("y"),
+//    //                '+',
+//    //                new Constant(2)
+//    //            )
+//    //        );
+//    //        Dictionary<string, object> vars = new Dictionary<string, object>();
+//    //        vars["x"] = 3;
+//    //        vars["y"] = 5;
+//    //        WriteLine(e.Evaluate(vars));    // Outputs "21"
+//    //        vars["x"] = 1.5;
+//    //        vars["y"] = 9;
+//    //        WriteLine(e.Evaluate(vars));    // Outputs "16.5"
+
+//    //        ReadKey();
+//    //    }
+//    //}
+
+//    //class OverloadingExample
+//    //{
+//    //    static void F()
+//    //    {
+//    //        WriteLine("F()");
+//    //    }
+
+//    //    static void F(object x)
+//    //    {
+//    //        WriteLine("F(object)");
+//    //    }
+
+//    //    static void F(int x)
+//    //    {
+//    //        WriteLine("F(int)");
+//    //    }
+
+//    //    static void F(double x)
+//    //    {
+//    //        WriteLine("F(double)");
+//    //    }
+
+//    //    static void F<T>(T x)
+//    //    {
+//    //        WriteLine($"F<T>(T): {x.GetType()}");
+//    //    }
+
+//    //    static void F(double x, double y)
+//    //    {
+//    //        WriteLine("F(doube, double)");
+//    //    }
+
+//    //    static void Main(string[] args)
+//    //    {
+//    //        F();    // Invokes F()
+//    //        F(1);    // Invokes F(int)
+//    //        F(1.0);    // Invokes F(double)
+//    //        F("abc");   // Invokes F<string>(string)
+//    //        F((double)1);   // Invokes F(double)
+//    //        F((object)1);   // Invokes F(object)
+//    //        F<int>(1);  // Invokes F<int>(int)
+//    //        F(1, 1);    // Invokes F(double, double)
+
+//    //        F<string>("Hello world");
+//    //        OverloadingExample oe = new OverloadingExample();
+//    //        F<OverloadingExample>(oe);
+
+//    //        ReadKey();
+//    //    }
+//    //}
+//}
+
+namespace 其他函数成员
 {
-    //class RefExample
-    //{
-    //    static void Swap(ref int x, ref int y)
-    //    {
-    //        int temp = x;
-    //        x = y;
-    //        y = temp;
-    //    }
-
-    //    public static void Main()
-    //    {
-    //        int i = 1, j = 2;
-    //        Swap(ref i, ref j);
-    //        WriteLine($"i: {i} j: {j}");
-    //        ReadKey();
-    //    }
-    //}
-
-    //class OutExample
-    //{
-    //    static void Divide(int x, int y, out int result, out int remainder)
-    //    {
-    //        result = x / y;
-    //        remainder = x % y;
-    //    }
-
-    //    public static void Main()
-    //    {
-    //        Divide(10, 3, out int res, out int rem);
-    //        WriteLine("res: {0} rem: {1}", res, rem);
-    //        ReadKey();
-    //    }
-    //}
-
-    //class Program
-    //{
-    //    static void Main()
-    //    {
-    //        int x = 1, y = 2, z = 3;
-    //        WriteLine("x={0} y={1} z={2}", x, y, z);
-
-    //        string s = "x={0} y={1} z={2}";
-    //        object[] args = new object[3];
-    //        args[0] = x;
-    //        args[1] = y;
-    //        args[2] = z;
-    //        WriteLine(s, args);
-    //        ReadKey();
-    //    }
-    //}
-
-    //class Squares
-    //{
-    //    public static void Main()
-    //    {
-    //        int i = 0;
-    //        int j;
-    //        while (i < 10)
-    //        {
-    //            j = i * i;
-    //            WriteLine($"{i} x {i} = {j}");
-    //            i = i + 1;
-    //        }
-    //        ReadKey();
-    //    }
-    //}
-
-    //class Entity
-    //{
-    //    static int nextSerialNo;
-    //    int serialNo;
-
-    //    public Entity()
-    //    {
-    //        serialNo = nextSerialNo++;
-    //    }
-
-    //    public int GetSerialNo()
-    //    {
-    //        return serialNo;
-    //    }
-
-    //    public static int GetNextSerialNo()
-    //    {
-    //        return nextSerialNo;
-    //    }
-
-    //    public static void SetNextSerialNo(int value)
-    //    {
-    //        nextSerialNo = value;
-    //    }
-    //}
-    //class EntityExample
-    //{
-    //    static void Main()
-    //    {
-    //        Entity.SetNextSerialNo(1000);
-    //        Entity e1 = new Entity();
-    //        Entity e2 = new Entity();
-    //        WriteLine(e1.GetSerialNo());    // Outpus "1000"
-    //        WriteLine(e2.GetSerialNo());    // Outpus "1001"
-    //        WriteLine(Entity.GetNextSerialNo());    // Outpus "1002"
-    //        ReadKey();
-    //    }
-    //}
-
-    public abstract class Expression
+    public class List<T>
     {
-        // 虚方法
-        public abstract double Evaluate(Dictionary<string, object> vars);
-    }
 
-    // 常量
-    public class Constant : Expression
-    {
-        // 字段
-        double value;
-
-        // 构造方法
-        public Constant(double value)
-        {
-            this.value = value;
-        }
-
-        // 重写方法 求值
-        public override double Evaluate(Dictionary<string, object> vars)
-        {
-            return value;
-        }
-    }
-
-    // 变量引用
-    public class VariableReference : Expression
-    {
-        // 字段
-        string name;
-
-        // 构造方法
-        public VariableReference(string name)
-        {
-            this.name = name;
-        }
-
-        // 重写方法 根据字典求值
-        public override double Evaluate(Dictionary<string, object> vars)
-        {
-            WriteLine(vars[name]);
-            object value = vars[name];
-            if (value == null)
-            {
-                throw new Exception("Unknown variable: " + name);
-            }
-            return Convert.ToDouble(value);
-        }
-    }
-
-    // 算术运算
-    public class Operation : Expression
-    {
-        // 字段
-        Expression left;
-        char op;
-        Expression right;
-
-        // 构造方法
-        public Operation(Expression left, char op, Expression right)
-        {
-            this.left = left;
-            this.op = op;
-            this.right = right;
-        }
-
-        // 重写方法
-        public override double Evaluate(Dictionary<string, object> vars)
-        {
-            double x = left.Evaluate(vars);
-            double y = right.Evaluate(vars);
-            switch (op)
-            {
-                case '+': return x + y;
-                case '-': return x - y;
-                case '*': return x * y;
-                case '/': return x / y;
-            }
-            throw new Exception("Unknown operator");
-        }
-    }
-
-    class InheritanceExample
-    {
-        public static void Main()
-        {
-            Expression e = new Operation(
-                new VariableReference("x"),
-                '*',
-                new Operation(
-                    new VariableReference("y"),
-                    '+',
-                    new Constant(2)
-                )
-            );
-            Dictionary<string, object> vars = new Dictionary<string, object>();
-            vars["x"] = 3;
-            //vars["y"] = 5;
-            WriteLine(e.Evaluate(vars));    // Outputs "21"
-            vars["x"] = 1.5;
-            vars["y"] = 9;
-            WriteLine(e.Evaluate(vars));    // Outputs "16.5"
-
-            ReadKey();
-        }
     }
 }
