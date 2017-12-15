@@ -376,20 +376,20 @@ namespace 其他函数成员
 {
     public class List<T>
     {
-        // Constant
+        // Constant 默认初始容量
         const int defaultCapacity = 4;
 
         // Fields
-        T[] items;
-        int count;
+        T[] items;  // T类型数组
+        int count;  // 数组包含的元素数，初始为0
 
-        // Constructor
+        // Constructor 初始化List类的新实例，该实例为空并且具有指定的初始容量
         public List(int capacity = defaultCapacity)
         {
             items = new T[capacity];
         }
 
-        // Properties
+        // Properties 数组包含的元素数，初始为0
         public int Count => count;
 
         public int Capacity
@@ -430,13 +430,16 @@ namespace 其他函数成员
             OnChanged();
         }
 
-        protected virtual void OnChanged() =>
-            Changed?.Invoke(this, EventArgs.Empty);
+        protected virtual void OnChanged() => Changed?.Invoke(this, EventArgs.Empty);
 
-        public override bool Equals(object other) =>
-            Equals(this, other as List<T>);
+        public override bool Equals(object other) => Equals(this, other as List<T>);
 
         // Event
         public event EventHandler Changed;
+
+        // Operators
+        public static bool operator ==(List<T> a, List<T> b) => Equals(a, b);
+
+        public static bool operator !=(List<T> a, List<T> b) => !Equals(a, b);
     }
 }
