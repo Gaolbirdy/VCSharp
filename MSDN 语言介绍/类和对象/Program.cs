@@ -380,8 +380,8 @@ namespace 其他函数成员
         const int defaultCapacity = 4;
 
         // Fields 字段
-        T[] items;  // T类型数组
-        int count;  // 数组包含的元素数，初始为0
+        public T[] items;  // T类型数组
+        public int count;  // 数组包含的元素数，初始为0
 
         // Constructor 初始化List类的新实例，该实例为空并且具有指定的初始容量
         public List(int capacity = defaultCapacity)
@@ -436,6 +436,7 @@ namespace 其他函数成员
             OnChanged();
         }
 
+        // 如果事件Changed不为null，事件被触发
         protected virtual void OnChanged() => Changed?.Invoke(this, EventArgs.Empty);
 
         public override bool Equals(object other) => Equals(this, other as List<T>);
@@ -456,12 +457,55 @@ namespace 其他函数成员
             return true;
         }
 
-        // Event
+        // 声明事件的委托类型
+        //public delegate void EventHandler(object sender, EventArgs e)
+        
+        // Event 基于上面的委托定义事件 该事件在生成的时候会调用委托
         public event EventHandler Changed;
 
         // Operators
         public static bool operator ==(List<T> a, List<T> b) => Equals(a, b);
 
         public static bool operator !=(List<T> a, List<T> b) => !Equals(a, b);
+
+        public void WriteInfo()
+        {
+            WriteLine(Capacity);
+            WriteLine(Count);
+            WriteLine(items.Length);
+            WriteLine(count);
+            WriteLine();
+        }
+    }
+
+    class ListTester
+    {
+        static void Main()
+        {
+            List<String> list1 = new List<string>();
+            List<String> list2 = new List<string>(10);
+
+            list1.WriteInfo();
+
+            list1.Capacity = 3;
+            list1.WriteInfo();
+
+            list1.Add("1");
+            list1.Add("2");
+            list1.WriteInfo();
+
+            list1.Add("3");
+            list1.WriteInfo();
+
+            list1.Add("1");
+            list1.WriteInfo();
+
+            list1.Capacity = 0;
+            list1.WriteInfo();
+
+            list2.WriteInfo();
+
+            ReadKey();
+        }
     }
 }
