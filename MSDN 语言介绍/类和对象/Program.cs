@@ -379,7 +379,7 @@ namespace 其他函数成员
         // Constant 默认初始容量
         const int defaultCapacity = 4;
 
-        // Fields
+        // Fields 字段
         T[] items;  // T类型数组
         int count;  // 数组包含的元素数，初始为0
 
@@ -392,15 +392,20 @@ namespace 其他函数成员
         // Properties 数组包含的元素数，初始为0
         public int Count => count;
 
+        // 获取或设置List能够容纳的元素总数
         public int Capacity
         {
             get { return items.Length; }
             set
             {
-                if (value < count) value = count;
+                // 数组已包含的元素数，可设置的新容量值最小为它，保证改变容量后的List也必然能容纳下全部已有元素
+                if (value < count)
+                    value = count;
+
+                // count总是会<=items.Length，也即Capacity
                 if (value != items.Length)
                 {
-                    T[] newItems = new T[value];
+                    T[] newItems = new T[value];    // 有可能扩容；也可能缩容至，匹配已添加的元素数count
                     Array.Copy(items, 0, newItems, 0, count);
                     items = newItems;
                 }
@@ -424,7 +429,8 @@ namespace 其他函数成员
         // Methods
         public void Add(T item)
         {
-            if (count == Capacity) Capacity = count * 2;
+            if (count == Capacity)
+                Capacity = count * 2;
             items[count] = item;
             count++;
             OnChanged();
@@ -433,6 +439,22 @@ namespace 其他函数成员
         protected virtual void OnChanged() => Changed?.Invoke(this, EventArgs.Empty);
 
         public override bool Equals(object other) => Equals(this, other as List<T>);
+
+        static bool Equals(List<T> a, List<T> b)
+        {
+            if (Object.ReferenceEquals(a, null))
+                return Object.ReferenceEquals(b, null);
+            if (Object.ReferenceEquals(b, null) || a.count != b.count)
+                return false;
+            for (int i = 0; i < a.count; i++)
+            {
+                if (!object.Equals(a.items[i], b.items[i]))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
 
         // Event
         public event EventHandler Changed;
