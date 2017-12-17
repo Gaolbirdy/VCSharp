@@ -380,8 +380,8 @@ namespace 其他函数成员
         const int defaultCapacity = 4;
 
         // Fields 字段
-        public T[] items;  // T类型数组
-        public int count;  // 数组包含的元素数，初始为0
+        T[] items;  // T类型数组
+        int count;  // 数组包含的元素数，初始为0
 
         // Constructor 初始化List类的新实例，该实例为空并且具有指定的初始容量
         public List(int capacity = defaultCapacity)
@@ -389,7 +389,8 @@ namespace 其他函数成员
             items = new T[capacity];
         }
 
-        // Properties 数组包含的元素数，初始为0
+        // Properties
+        //数组包含的元素数，初始为0
         public int Count => count;
 
         // 获取或设置List能够容纳的元素总数
@@ -436,6 +437,12 @@ namespace 其他函数成员
             OnChanged();
         }
 
+        // 声明事件的委托类型
+        //public delegate void EventHandler(object sender, EventArgs e)
+
+        // Event 基于上面的委托定义事件 该事件在生成的时候会调用委托
+        public event EventHandler Changed;
+
         // 如果事件Changed不为null，事件被触发
         protected virtual void OnChanged() => Changed?.Invoke(this, EventArgs.Empty);
 
@@ -456,12 +463,6 @@ namespace 其他函数成员
             }
             return true;
         }
-
-        // 声明事件的委托类型
-        //public delegate void EventHandler(object sender, EventArgs e)
-        
-        // Event 基于上面的委托定义事件 该事件在生成的时候会调用委托
-        public event EventHandler Changed;
 
         // Operators
         public static bool operator ==(List<T> a, List<T> b) => Equals(a, b);
@@ -505,7 +506,61 @@ namespace 其他函数成员
 
             list2.WriteInfo();
 
+            List<string> names = new List<string>();
+            names.Capacity = 100;   // Invokes set accessor
+            int i = names.Count;    // Invokes get accessor
+            int j = names.Capacity; // Invokes get accessor
+
+            names.Add("Liz");
+            names.Add("Martha");
+            names.Add("Beth");
+            for (int k = 0; k < names.Count; k++)
+            {
+                string s = names[k];
+                names[k] = s.ToUpper();
+                WriteLine(names[k]);
+            }
+
+            List<int> a = new List<int>();
+            a.Add(1);
+            a.Add(2);
+
+            List<int> b = new List<int>();
+            b.Add(1);
+            b.Add(2);
+
+            WriteLine(a == b);
+            WriteLine(a != b);
+
+            b.Add(3);
+            WriteLine(a == b);
+            WriteLine(a != b);
+
+            List<int> c = null;
+            WriteLine(c == a);
+
             ReadKey();
         }
     }
+
+    //class EventExample
+    //{
+    //    static int changeCount;
+
+    //    static void ListChanged(object sender, EventArgs e)
+    //    {
+    //        changeCount++;
+    //    }
+
+    //    public static void Main()
+    //    {
+    //        List<String> names = new List<String>();
+    //        names.Changed += new EventHandler(ListChanged);
+    //        names.Add("Liz");
+    //        names.Add("Martha");
+    //        names.Add("Beth");
+    //        WriteLine(changeCount); // Outputs "3"
+    //        ReadKey();
+    //    }
+    //}
 }
