@@ -8,55 +8,75 @@ namespace CSharp中的数字
 {
     class Program
     {
+        static void WorkingWithIntegers()
+        {
+            int a = 18;
+            int b = 6;
+            int c = a + b;
+            Console.WriteLine(c);
+            c = a - b;
+            Console.WriteLine(c);
+            c = a * b;
+            Console.WriteLine(c);
+            c = a / b;
+            Console.WriteLine(c);
+        }
+
+        static void OrderPrecedence()
+        {
+            int a = 5;
+            int b = 4;
+            int c = 2;
+            int d = a + b * c;
+            Console.WriteLine(d);
+            d = (a + b) * c;
+            Console.WriteLine(d);
+            d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
+            Console.WriteLine(d);
+
+            a = 7;
+            b = 4;
+            c = 3;
+            d = (a + b) / c;
+            int e = (a + b) % c;
+            Console.WriteLine($"quotient: {d}");
+            Console.WriteLine($"remainder: {e}");
+        }
+
+        static void TestLimits()
+        {
+            int max = int.MaxValue;
+            int min = int.MinValue;
+            Console.WriteLine($"The range of integers is {min} to {max}");
+            int what = max + 3;
+            Console.WriteLine($"An Example of overflow: {what}");
+        }
+
+        static void WorkWithDoubles()
+        {
+            double a = 19;
+            double b = 23;
+            double c = 8;
+            double d = (a + b) / c;
+            Console.WriteLine(d);
+
+            double max = double.MaxValue;
+            double min = double.MinValue;
+            Console.WriteLine($"The range of double is {min} to {max}");
+
+            double third = 1.0 / 3.0;
+            Console.WriteLine(third);
+        }
+
         static void Main(string[] args)
         {
-            //int a = 18;
-            //int b = 6;
-            //int c = a + b;
-            //Console.WriteLine(c);
-            //c = a - b;
-            //Console.WriteLine(c);
-            //c = a * b;
-            //Console.WriteLine(c);
-            //c = a / b;
-            //Console.WriteLine(c);
+            //WorkingWithIntegers();
 
-            //a = 5;
-            //b = 4;
-            //c = 2;
-            //int d = a + b * c;
-            //Console.WriteLine(d);
-            //d = (a + b) * c;
-            //Console.WriteLine(d);
-            //d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
-            //Console.WriteLine(d);
+            //OrderPrecedence();
 
-            //a = 7;
-            //b = 4;
-            //c = 3;
-            //d = (a + b) / c;
-            //int e = (a + b) % c;
-            //Console.WriteLine($"quotient: {d}");
-            //Console.WriteLine($"remainder: {e}");
+            //TestLimits();
 
-            //int max = int.MaxValue;
-            //int min = int.MinValue;
-            //Console.WriteLine($"The range of integers is {min} to {max}");
-            //int what = max + 3;
-            //Console.WriteLine($"An Example of overflow: {what}");
-
-            //double a = 19;
-            //double b = 23;
-            //double c = 8;
-            //double d = (a + b) / c;
-            //Console.WriteLine(d);
-
-            //double max = double.MaxValue;
-            //double min = double.MinValue;
-            //Console.WriteLine($"The range of double is {min} to {max}");
-
-            //double third = 1.0 / 3.0;
-            //Console.WriteLine(third);
+            //WorkWithDoubles();
 
             decimal min = decimal.MinValue;
             decimal max = decimal.MaxValue;
