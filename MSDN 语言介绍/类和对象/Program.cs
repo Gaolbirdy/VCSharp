@@ -485,59 +485,58 @@ namespace 其他函数成员
         {
             List<String> list1 = new List<string>();
             List<String> list2 = new List<string>(10);
+            //list1.WriteInfo();
 
-            list1.WriteInfo();
+            //list1.Capacity = 3;
+            //list1.WriteInfo();
 
-            list1.Capacity = 3;
-            list1.WriteInfo();
+            //list1.Add("1");
+            //list1.Add("2");
+            //list1.WriteInfo();
 
-            list1.Add("1");
-            list1.Add("2");
-            list1.WriteInfo();
+            //list1.Add("3");
+            //list1.WriteInfo();
 
-            list1.Add("3");
-            list1.WriteInfo();
+            //list1.Add("1");
+            //list1.WriteInfo();
 
-            list1.Add("1");
-            list1.WriteInfo();
+            //list1.Capacity = 0;
+            //list1.WriteInfo();
 
-            list1.Capacity = 0;
-            list1.WriteInfo();
+            //list2.WriteInfo();
 
-            list2.WriteInfo();
+            //List<string> names = new List<string>();
+            //names.Capacity = 100;   // Invokes set accessor
+            //int i = names.Count;    // Invokes get accessor
+            //int j = names.Capacity; // Invokes get accessor
 
-            List<string> names = new List<string>();
-            names.Capacity = 100;   // Invokes set accessor
-            int i = names.Count;    // Invokes get accessor
-            int j = names.Capacity; // Invokes get accessor
+            //names.Add("Liz");
+            //names.Add("Martha");
+            //names.Add("Beth");
+            //for (int k = 0; k < names.Count; k++)
+            //{
+            //    string s = names[k];
+            //    names[k] = s.ToUpper();
+            //    WriteLine(names[k]);
+            //}
 
-            names.Add("Liz");
-            names.Add("Martha");
-            names.Add("Beth");
-            for (int k = 0; k < names.Count; k++)
-            {
-                string s = names[k];
-                names[k] = s.ToUpper();
-                WriteLine(names[k]);
-            }
+            //List<int> a = new List<int>();
+            //a.Add(1);
+            //a.Add(2);
 
-            List<int> a = new List<int>();
-            a.Add(1);
-            a.Add(2);
+            //List<int> b = new List<int>();
+            //b.Add(1);
+            //b.Add(2);
 
-            List<int> b = new List<int>();
-            b.Add(1);
-            b.Add(2);
+            //WriteLine(a == b);
+            //WriteLine(a != b);
 
-            WriteLine(a == b);
-            WriteLine(a != b);
+            //b.Add(3);
+            //WriteLine(a == b);
+            //WriteLine(a != b);
 
-            b.Add(3);
-            WriteLine(a == b);
-            WriteLine(a != b);
-
-            List<int> c = null;
-            WriteLine(c == a);
+            //List<int> c = null;
+            //WriteLine(c == a);
 
             ReadKey();
         }
