@@ -68,16 +68,8 @@ namespace CSharp中的数字
             Console.WriteLine(third);
         }
 
-        static void Main(string[] args)
+        static void WorkWithDecimals()
         {
-            //WorkingWithIntegers();
-
-            //OrderPrecedence();
-
-            //TestLimits();
-
-            //WorkWithDoubles();
-
             decimal min = decimal.MinValue;
             decimal max = decimal.MaxValue;
             Console.WriteLine($"The range of the decimal type is {min} to {max}");
@@ -89,6 +81,19 @@ namespace CSharp中的数字
             decimal c = 1.0M;
             decimal d = 3.0M;
             Console.WriteLine(c / d);
+        }
+
+        static void Main(string[] args)
+        {
+            //WorkingWithIntegers();
+
+            //OrderPrecedence();
+
+            //TestLimits();
+
+            //WorkWithDoubles();
+
+            //WorkWithDecimals();
 
             double radius = 2.50;
             double area = Math.PI * radius * radius;

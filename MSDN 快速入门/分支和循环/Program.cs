@@ -8,12 +8,12 @@ namespace 分支和循环
 {
     class Program
     {
-        static void Main(string[] args)
+        static void ExploreIf()
         {
             int a = 5;
             int b = 3;
             int c = 4;
-            if ((a + b  + c > 10) && (a > b))
+            if ((a + b + c > 10) && (a > b))
             {
                 Console.WriteLine("The answer is greater than 10");
                 Console.WriteLine("And the first number is greater than the second");
@@ -33,6 +33,11 @@ namespace 分支和循环
                 Console.WriteLine("The answer is not greater than 10");
                 Console.WriteLine("And the first number is not greater than the second");
             }
+        }
+
+        static void Main(string[] args)
+        {
+            //ExploreIf();
 
             //int counter = 0;
             //while (counter < 10)
@@ -52,6 +57,16 @@ namespace 分支和循环
             {
                 Console.WriteLine($"Hello World! The counter is {counter}");
             }
+
+            int sum = 0;
+            for (int i = 1; i <= 20; i++)
+            {
+                if (i % 3 ==0)
+                {
+                    sum += i;
+                }
+            }
+            Console.WriteLine(sum);
         }
     }
 }
