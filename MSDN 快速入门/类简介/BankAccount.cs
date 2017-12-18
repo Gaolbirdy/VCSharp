@@ -62,5 +62,16 @@ namespace 类简介
             MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
             //this.Balance = initialBalance;
         }
+
+        public string GetAccountHistory()
+        {
+            var report = new StringBuilder();
+
+            report.AppendLine("Owner\t\tDate\t\tAmount\tNote");
+            foreach (var item in allTransactions)
+                report.AppendLine($"{Owner}\t\t{item.Date.ToShortDateString()}\t{item.Amount}\t{item.Notes}");
+
+            return report.ToString();
+        }
     }
 }

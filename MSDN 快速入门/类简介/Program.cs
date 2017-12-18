@@ -20,32 +20,39 @@ namespace 类简介
             WriteLine(account.Balance);
 
             // Test that the initial balances must be positive:
+            BankAccount invalidAccount = new BankAccount("invalid", 0);
+            invalidAccount.MakeDeposit(0, DateTime.Now, "0 Deposit");
+            invalidAccount.MakeWithdrawal(0, DateTime.Now, "0 Withdrawal");
+
             try
             {
-                var invalidAmount = new BankAccount("invalid", -55);
+                //invalidAccount = new BankAccount("invalid", 55);
             }
             catch (ArgumentOutOfRangeException e)
             {
                 WriteLine("Exception caught creating account with negative balance");
                 WriteLine(e.ToString());
+               
                 //WriteLine();
-
                 //WriteLine(e);
                 //WriteLine();
-
                 //WriteLine(e.Message);
             }
 
-            //// Test for a negative balance
-            //try
-            //{
-            //    account.MakeWithdrawal(11750, DateTime.Now, "Attemp to overdraw");
-            //}
-            //catch (InvalidOperationException e)
-            //{
-            //    WriteLine("Exception caught trying to overdraw");
-            //    WriteLine(e.ToString());
-            //}
+            // Test for a negative balance
+            try
+            {
+                account.MakeWithdrawal(1750, DateTime.Now, "Attemp to overdraw");
+            }
+            catch (InvalidOperationException e)
+            {
+                WriteLine("Exception caught trying to overdraw");
+                WriteLine(e.ToString());
+            }
+
+            WriteLine();
+            WriteLine(account.GetAccountHistory());
+            WriteLine(invalidAccount.GetAccountHistory());
 
             //WriteLine(DateTime.Now);
 
