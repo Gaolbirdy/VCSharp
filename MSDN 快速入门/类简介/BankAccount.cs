@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace 类简介
 {
@@ -45,7 +46,7 @@ namespace 类简介
         public void MakeWithdrawal(decimal amount, DateTime date, string note)
         {
             if (amount < 0)
-                throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal  must be positive");
+                throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
             if (Balance - amount < 0)
                 throw new InvalidOperationException("Not sufficient funds for this withdrawal");
             var withdrawal = new Transaction(-amount, date, note);
