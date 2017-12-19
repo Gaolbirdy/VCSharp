@@ -19,14 +19,17 @@ namespace 类简介
             account.MakeDeposit(100, DateTime.Now, "freind paid me back");
             WriteLine(account.Balance);
 
-            // Test that the initial balances must be positive:
-            BankAccount invalidAccount = new BankAccount("invalid", 0);
-            invalidAccount.MakeDeposit(0, DateTime.Now, "0 Deposit");
-            invalidAccount.MakeWithdrawal(0, DateTime.Now, "0 Withdrawal");
+            var ZeroAccount = new BankAccount("Zero", 0);
+            ZeroAccount.MakeDeposit(0, DateTime.Now, "0 Deposit");
+            ZeroAccount.MakeWithdrawal(0, DateTime.Now, "0 Withdrawal");
 
+            WriteLine(account.GetAccountHistory());
+            WriteLine(ZeroAccount.GetAccountHistory());
+
+            // Test that the initial balances must be positive:
             try
             {
-                //invalidAccount = new BankAccount("invalid", 55);
+                var invalidAccount = new BankAccount("invalid", 55);
             }
             catch (ArgumentOutOfRangeException e)
             {
@@ -51,8 +54,6 @@ namespace 类简介
             }
 
             WriteLine();
-            WriteLine(account.GetAccountHistory());
-            WriteLine(invalidAccount.GetAccountHistory());
 
             //WriteLine(DateTime.Now);
 
