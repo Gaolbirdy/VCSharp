@@ -8,7 +8,6 @@ runoob c 100Àý
 c primer plus
 
 
-runoob c++ ¸´Ï°
 runoob c++ 
 yiibai c++
 runoob c++±ê×¼¿â
