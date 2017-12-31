@@ -1,4 +1,3 @@
-yiibai c 标准库
 runoob c标准库
 yiibai c 实例
 cs50
@@ -10,8 +9,7 @@ c primer plus
 
 runoob c++ 
 yiibai c++
-runoob c++标准库
-yiiba c++标准库
+yiibai C++标准库
 
 siki 30编程题
 siki c\c++ 100题
