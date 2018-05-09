@@ -10,8 +10,10 @@ namespace DataTypeApplication
     {
         static void Main(string[] args)
         {
+            // 值类型
             Console.WriteLine("Size of int: {0}", sizeof(int));
 
+            // 引用类型
             object obj;
             obj = 100; // 这是装箱
             int val = 0;
