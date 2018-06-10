@@ -7,19 +7,19 @@ using static System.Convert;
 
 namespace TypeConversionApplication
 {
-    class ExplicitConversion
-    {
-        //static void Main(string[] args)
-        //{
-        //    double d = 5673.74;
-        //    int i;
+    //class ExplicitConversion
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        double d = 5673.74;
+    //        int i;
 
-        //    // 强制转换double为int
-        //    i = (int)d;
-        //    Console.WriteLine(i);
-        //    Console.ReadKey();
-        //}
-    }
+    //        // 强制转换double为int
+    //        i = (int)d;
+    //        Console.WriteLine(i);
+    //        Console.ReadKey();
+    //    }
+    //}
 
     class StringConversion
     {
@@ -35,6 +35,7 @@ namespace TypeConversionApplication
             Console.WriteLine(f.ToString());
             Console.WriteLine(d.ToString());
             Console.WriteLine(b.ToString());
+            Console.WriteLine(b.GetType());
             Console.ReadKey();
         }
     }

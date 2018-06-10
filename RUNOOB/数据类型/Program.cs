@@ -16,6 +16,7 @@ namespace DataTypeApplication
             // 引用类型
             object obj;
             obj = 100; // 这是装箱
+
             int val = 0;
             val = (int)obj; // 这是拆箱
             Console.WriteLine("obj: {0}", obj);
@@ -27,6 +28,9 @@ namespace DataTypeApplication
             d = "";
             Console.WriteLine(d.GetType());
 
+            string str = @"runoob.com";
+            Console.WriteLine(str);
+
             string str1 = @"C:\Windows";
             string str2 = "C:\\Windows";
             string str3 = @"<script type=""text/javascript"">
@@ -37,6 +41,8 @@ namespace DataTypeApplication
             Console.WriteLine(str2);
             Console.WriteLine(str3);
 
+
+            // 指针类型
             //char* cptr;
             //int* iptr;
 
