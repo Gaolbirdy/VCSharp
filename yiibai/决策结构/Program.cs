@@ -64,28 +64,52 @@ namespace DecisionMaking
             //WriteLine("Exact value of a is : {0}", a);
             //WriteLine("Exact value of b is : {0}", b);
 
-            char grade = 'B';
+            //char grade = 'B';
 
-            switch (grade)
-            {
-                case 'A':
-                    WriteLine("Excellent!");
-                    break;
-                case 'B':
-                case 'C':
-                    WriteLine("Well done");
-                    break;
-                case 'D':
-                    WriteLine("You passed");
-                    break;
-                case 'F':
-                    WriteLine("Better try again");
-                    break;
-                default:
-                    WriteLine("Invalid grade");
-                    break;
-            }
-            WriteLine("Your grade is {0}", grade);
+            //switch (grade)
+            //{
+            //    case 'A':
+            //        WriteLine("Excellent!");
+            //        break;
+            //    case 'B':
+            //    case 'C':
+            //        WriteLine("Well done");
+            //        break;
+            //    case 'D':
+            //        WriteLine("You passed");
+            //        break;
+            //    case 'F':
+            //        WriteLine("Better try again");
+            //        break;
+            //    default:
+            //        WriteLine("Invalid grade");
+            //        break;
+            //}
+            //WriteLine("Your grade is {0}", grade);
+
+            //int a = 199;
+            //int b = 299;
+
+            //switch (a)
+            //{
+            //    case 199:
+            //        WriteLine("This is part of outer switch");
+            //        switch (b)
+            //        {
+            //            case 299:
+            //                WriteLine("This is part of inner switch");
+            //                break;
+            //        }
+            //        break;
+            //}
+            //WriteLine("Exact value of a is : {0}", a);
+            //WriteLine("Exact value of b is : {0}", b);
+
+            int a = 1;
+            int b = 2;
+            int c = 0;
+            c = (a > b) ? a : b;
+            WriteLine(c);
 
             ReadLine();
         }
