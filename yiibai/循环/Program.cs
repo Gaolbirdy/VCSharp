@@ -33,14 +33,44 @@ namespace Loops
             //} while (a < 20);
 
 
-            int i, j;
-            for (i = 2; i < 100; i++)
-            {
-                for (j = 2; j <= (i / j); j++)
-                    if ((i % j) == 0) break;
+            //int i, j;
+            //for (i = 2; i < 100; i++)
+            //{
+            //    for (j = 2; j <= (i / j); j++)
+            //        if ((i % j) == 0) break;    // 不是素数
 
-                if (j > (i / j))
-                    WriteLine("{0} is prime", i);
+            //    if (j > (i / j))
+            //        WriteLine("{0} is prime", i);
+            //}
+
+            //int a = 10;
+
+            //while (a < 20)
+            //{
+            //    WriteLine("value of a: {0}", a);
+            //    a++;
+            //    if (a > 15)
+            //    {
+            //        break;
+            //    }
+            //}
+
+            //int a = 10;
+
+            //do
+            //{
+            //    if (a == 15)
+            //    {
+            //        a = a + 1;
+            //        continue;
+            //    }
+            //    WriteLine("value of a: {0}", a);
+            //    a++;
+            //} while (a < 20);
+
+            for (; ; )
+            {
+                WriteLine("Hey! I am trapped");
             }
 
             ReadLine();
