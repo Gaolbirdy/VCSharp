@@ -48,26 +48,107 @@ namespace CalculatorApplication
     //    }
     //}
 
+    //class NumberManipulator
+    //{
+    //    public int Factorial(int num)
+    //    {
+    //        int result;
+    //        if (num == 1)
+    //        {
+    //            return 1;
+    //        }
+    //        else
+    //        {
+    //            result = Factorial(num - 1) * num;
+    //            return result;
+    //        }
+    //    }
+
+    //    static void Main(string[] args)
+    //    {
+    //        NumberManipulator n = new NumberManipulator();
+
+    //        WriteLine("Factorial of 6 is: {0}", n.Factorial(6));
+    //        WriteLine("Factorial of 7 is: {0}", n.Factorial(7));
+    //        WriteLine("Factorial of 8 is: {0}", n.Factorial(8));
+
+    //        ReadLine();
+    //    }
+    //}
+
+    //class NumberManipulator
+    //{
+    //    public void Swap(int x, int y)
+    //    {
+    //        int temp;
+
+    //        temp = x;
+    //        x = y;
+    //        y = temp;
+    //    }
+
+    //    static void Main(string[] args)
+    //    {
+    //        NumberManipulator n = new NumberManipulator();
+    //        int a = 100;
+    //        int b = 200;
+
+    //        WriteLine("Before swap, value of a: {0}", a);
+    //        WriteLine("Before swap, value of b: {0}", b);
+
+    //        n.Swap(a, b);
+    //        WriteLine("After swap, value of a: {0}", a);
+    //        WriteLine("After swap, value of b: {0}", b);
+
+    //        ReadLine();
+    //    }
+    //}
+
+    //class NumberManipulator
+    //{
+    //    public void Swap(ref int x, ref int y)
+    //    {
+    //        int temp;
+
+    //        temp = x;
+    //        x = y;
+    //        y = temp;
+    //    }
+
+    //    static void Main(string[] args)
+    //    {
+    //        NumberManipulator n = new NumberManipulator();
+    //        int a = 100;
+    //        int b = 200;
+
+    //        WriteLine("Before swap, value of a: {0}", a);
+    //        WriteLine("Before swap, value of b: {0}", b);
+
+    //        n.Swap(ref a, ref b);
+    //        WriteLine("After swap, value of a: {0}", a);
+    //        WriteLine("After swap, value of b: {0}", b);
+
+    //        ReadLine();
+    //    }
+    //}
+
     class NumberManipulator
     {
-        public int Factorial(int num)
+        public void GetValue(out int x)
         {
-            int result;
-            if (num == 1)
-            {
-                return 1;
-            }
-            else
-            {
-                result = Factorial(num - 1) * num;
-                return result;
-            }
+            int temp = 5;
+            x = temp;
         }
 
         static void Main(string[] args)
         {
+            NumberManipulator n = new NumberManipulator();
+            int a = 100;
 
+            WriteLine("Before method call, value of a : {0}", a);
+            n.GetValue(out a);
 
+            WriteLine("After method call, value of a : {0}", a);
             ReadLine();
         }
     }
