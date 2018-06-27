@@ -132,23 +132,46 @@ namespace CalculatorApplication
     //    }
     //}
 
+    //class NumberManipulator
+    //{
+    //    public void GetValue(out int x)
+    //    {
+    //        int temp = 5;
+    //        x = temp;
+    //    }
+
+    //    static void Main(string[] args)
+    //    {
+    //        NumberManipulator n = new NumberManipulator();
+    //        int a = 100;
+
+    //        WriteLine("Before method call, value of a : {0}", a);
+    //        n.GetValue(out a);
+
+    //        WriteLine("After method call, value of a : {0}", a);
+    //        ReadLine();
+    //    }
+    //}
+
     class NumberManipulator
     {
-        public void GetValue(out int x)
+        public void GetValues(out int x, out int y)
         {
-            int temp = 5;
-            x = temp;
+            WriteLine("Enter the first value: ");
+            x = Convert.ToInt32(ReadLine());
+            WriteLine("Enter the first value: ");
+            y = Convert.ToInt32(ReadLine());
         }
 
         static void Main(string[] args)
         {
             NumberManipulator n = new NumberManipulator();
-            int a = 100;
+            int a, b;
 
-            WriteLine("Before method call, value of a : {0}", a);
-            n.GetValue(out a);
+            n.GetValues(out a, out b);
 
-            WriteLine("After method call, value of a : {0}", a);
+            WriteLine("After method call, value of a: {0}", a);
+            WriteLine("After method call, value of b: {0}", b);
             ReadLine();
         }
     }
