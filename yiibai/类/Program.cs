@@ -137,6 +137,37 @@ namespace BoxApplication
 
 namespace StaticVarApplication
 {
+    //class StaticVar
+    //{
+    //    public static int num;
+
+    //    public void Count()
+    //    {
+    //        num++;
+    //    }
+
+    //    public int GetNum()
+    //    {
+    //        return num;
+    //    }
+    //}
+
+    //class StaticTester
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        StaticVar s1 = new StaticVar();
+    //        StaticVar s2 = new StaticVar();
+
+    //        s1.Count();
+    //        s1.Count();
+    //        s1.Count();
+    //        s2.Count();
+    //        WriteLine("Variable num for s1: {0}", s1.GetNum());
+    //        WriteLine("Variable num for s2: {0}", s2.GetNum());
+    //    }
+    //}
+
     class StaticVar
     {
         public static int num;
@@ -146,7 +177,7 @@ namespace StaticVarApplication
             num++;
         }
 
-        public int GetNum()
+        public static int GetNum()
         {
             return num;
         }
@@ -156,15 +187,11 @@ namespace StaticVarApplication
     {
         static void Main(string[] args)
         {
-            StaticVar s1 = new StaticVar();
-            StaticVar s2 = new StaticVar();
-
-            s1.Count();
-            s1.Count();
-            s1.Count();
-            s2.Count();
-            WriteLine("Variable num for s1: {0}", s1.GetNum());
-            WriteLine("Variable num for s2: {0}", s2.GetNum());
+            StaticVar s = new StaticVar();
+            s.Count();
+            s.Count();
+            s.Count();
+            WriteLine("Variable num: {0}", StaticVar.GetNum());
         }
     }
 }
