@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "入门程序", "入门程序\入门程序.csproj", "{F0E19D41-8291-45B0-90D2-9D6F5195C764}"
 EndProject
@@ -40,6 +40,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "继承", "继承\继承.csproj", "{EBF82637-7710-4434-8789-82B3940D127A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "运算符重载", "运算符重载\运算符重载.csproj", "{71281968-63BE-41C6-A474-440226F2C6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "接口", "接口\接口.csproj", "{C87B3745-6899-4329-BD0F-8A1989433E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命名空间", "命名空间\命名空间.csproj", "{DB27781F-A50B-4C0F-9593-7594B16EF409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +283,30 @@ Global
 		{71281968-63BE-41C6-A474-440226F2C6DD}.Release|x64.Build.0 = Release|Any CPU
 		{71281968-63BE-41C6-A474-440226F2C6DD}.Release|x86.ActiveCfg = Release|Any CPU
 		{71281968-63BE-41C6-A474-440226F2C6DD}.Release|x86.Build.0 = Release|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Debug|x64.Build.0 = Debug|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Debug|x86.Build.0 = Debug|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Release|x64.ActiveCfg = Release|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Release|x64.Build.0 = Release|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Release|x86.ActiveCfg = Release|Any CPU
+		{C87B3745-6899-4329-BD0F-8A1989433E00}.Release|x86.Build.0 = Release|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Debug|x64.Build.0 = Debug|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Debug|x86.Build.0 = Debug|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Release|x64.ActiveCfg = Release|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Release|x64.Build.0 = Release|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Release|x86.ActiveCfg = Release|Any CPU
+		{DB27781F-A50B-4C0F-9593-7594B16EF409}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
