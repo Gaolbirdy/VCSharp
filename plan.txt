@@ -10,7 +10,6 @@ runoob css3
 runoob js
 
 
-yiibai c#
 siki c# 基础练习题
 siki c# 面向对象练习题
 
