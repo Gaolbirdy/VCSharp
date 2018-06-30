@@ -10,6 +10,17 @@ using System.Diagnostics;
 
 namespace 特性
 {
+    [AttributeUsage(AttributeTargets.Class |
+        AttributeTargets.Constructor |
+        AttributeTargets.Field |
+        AttributeTargets.Method |
+        AttributeTargets.Property,
+        AllowMultiple = true,
+        Inherited = false)]
+    public class MyAttribute : Attribute
+    { }
+
+    [MyAttribute]
     public class MyClass
     {
         [Conditional("DEBUG")]
