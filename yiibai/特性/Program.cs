@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace 特性
 {
@@ -153,7 +154,47 @@ namespace 特性
             WriteLine("Length: {0}", length);
             WriteLine("Width: {0}", width);
             WriteLine("Area: {0}", GetArea());
+            WriteLine();
         }
     }
 
+    class ExecuteRectangle
+    {
+        static void Main(string[] args)
+        {
+            Rectangle r = new Rectangle(14.5, 17.5);
+            r.Display();
+            Type type = typeof(Rectangle);
+
+            foreach (Object attributes in type.GetCustomAttributes(false))
+            {
+                DebugInfo dbi = (DebugInfo)attributes;
+                if (null != dbi)
+                {
+                    WriteLine("Bug no: {0}", dbi.BugNo);
+                    WriteLine("Developer: {0}", dbi.Developer);
+                    WriteLine("Last Reviewed: {0}", dbi.LastReivew);
+                    WriteLine("Remarks: {0}", dbi.Message);
+                    WriteLine();
+                }
+            }
+
+            foreach (MethodInfo m in type.GetMethods())
+            {
+                foreach (Attribute a in m.GetCustomAttributes())
+                {
+                    WriteLine(m.Name);
+                    DebugInfo dbi = (DebugInfo)a;
+                    if (null != dbi)
+                    {
+                        WriteLine("Bug no: {0}, for Method: {1}", dbi.BugNo, m.Name);
+                        WriteLine("Developer: {0}", dbi.Developer);
+                        WriteLine("Last Reviewed: {0}", dbi.LastReivew);
+                        WriteLine("Remarks: {0}", dbi.Message);
+                        WriteLine();
+                    }
+                }
+            }
+        }
+    }
 }
