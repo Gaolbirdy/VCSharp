@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托", "委托\委托.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "事件", "事件\事件.csproj", "{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射", "反射\反射.csproj", "{CF3C13EB-295A-4156-9DDD-7D95A11A7265}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBE1C650-9DF4-48EE-9DA5-C15A6498B701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3C13EB-295A-4156-9DDD-7D95A11A7265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3C13EB-295A-4156-9DDD-7D95A11A7265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3C13EB-295A-4156-9DDD-7D95A11A7265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3C13EB-295A-4156-9DDD-7D95A11A7265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

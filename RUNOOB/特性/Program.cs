@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using System.Reflection;
+using static System.Console;
 
 namespace 特性
 {
@@ -14,8 +16,7 @@ namespace 特性
         AttributeTargets.Method |
         AttributeTargets.Property,
         AllowMultiple = true)]
-
-    public class DebugInfo : System.Attribute
+    public class DebugInfo : Attribute
     {
         private int bugNo;
         private string developer;
@@ -80,8 +81,7 @@ namespace 特性
             width = w;
         }
 
-        [DebugInfo(55, "Zara Ali", "19/20/2012",
-        Message = "Return type mismatch")]
+        [DebugInfo(55, "Zara Ali", "19/20/2012", Message = "Return type mismatch")]
         public double GetArea()
         {
             return length * width;
@@ -93,6 +93,21 @@ namespace 特性
             Console.WriteLine("Length: {0}", length);
             Console.WriteLine("Width: {0}", width);
             Console.WriteLine("Area: {0}", GetArea());
+        }
+    }
+
+    class ExcuteRectangle
+    {
+        static void Main(string[] args)
+        {
+            Rectangele r = new Rectangele(4.5, 7.5);
+            r.Display();
+            Type type = typeof(Rectangele);
+
+            foreach (Object attributes in type.GetCustomAttributes(false))
+            {
+                
+            }
         }
     }
 }
