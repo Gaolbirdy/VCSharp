@@ -183,8 +183,9 @@ namespace 特性
             {
                 foreach (Attribute a in m.GetCustomAttributes())
                 {
-                    WriteLine(m.Name);
-                    DebugInfo dbi = (DebugInfo)a;
+                    WriteLine(m);
+                    //DebugInfo dbi = (DebugInfo)a;
+                    DebugInfo dbi = a as DebugInfo;
                     if (null != dbi)
                     {
                         WriteLine("Bug no: {0}, for Method: {1}", dbi.BugNo, m.Name);
@@ -192,6 +193,11 @@ namespace 特性
                         WriteLine("Last Reviewed: {0}", dbi.LastReivew);
                         WriteLine("Remarks: {0}", dbi.Message);
                         WriteLine();
+                    }
+                    else
+                    {
+                        WriteLine(a);
+                        WriteLine("null");
                     }
                 }
             }

@@ -50,7 +50,7 @@ namespace 特性
         {
             get
             {
-                return LastReview;
+                return lastReview;
             }
         }
 
@@ -93,6 +93,7 @@ namespace 特性
             Console.WriteLine("Length: {0}", length);
             Console.WriteLine("Width: {0}", width);
             Console.WriteLine("Area: {0}", GetArea());
+            WriteLine();
         }
     }
 
@@ -103,10 +104,44 @@ namespace 特性
             Rectangele r = new Rectangele(4.5, 7.5);
             r.Display();
             Type type = typeof(Rectangele);
+            //MemberInfo type = typeof(Rectangele);
 
+            // 遍历 Rectangle 类的特性
             foreach (Object attributes in type.GetCustomAttributes(false))
             {
-                
+                DebugInfo dbi = (DebugInfo)attributes;
+                if (null != dbi)
+                {
+                    WriteLine("Bug no: {0}", dbi.BugNo);
+                    WriteLine("Developer: {0}", dbi.Developer);
+                    WriteLine("Last Reviewed: {0}", dbi.LastReview);
+                    WriteLine("Remarks: {0}", dbi.Message);
+                    WriteLine();
+                }
+            }
+
+            // 遍历方法特性
+            foreach (MethodInfo m in type.GetMethods())
+            {
+                WriteLine(m);
+                foreach (Attribute a in m.GetCustomAttributes(true))
+                {
+                    //DebugInfo dbi = (DebugInfo)a;
+                    DebugInfo dbi = a as DebugInfo;
+                    if (null != dbi)
+                    {
+                        WriteLine("Bug no: {0}, for Method: {1}", dbi.BugNo, m.Name);
+                        WriteLine("Developer: {0}", dbi.Developer);
+                        WriteLine("Last Reviewed: {0}", dbi.LastReview);
+                        WriteLine("Remarks: {0}", dbi.Message);
+                        WriteLine();
+                    }
+                    else
+                    {
+                        WriteLine(a);
+                        WriteLine("null");
+                    }
+                }
             }
         }
     }
