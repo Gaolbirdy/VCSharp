@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "入门程序", "入门程序\入门程序.csproj", "{F0E19D41-8291-45B0-90D2-9D6F5195C764}"
 EndProject
@@ -56,6 +56,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "特性", "特性\特性.csproj", "{437B77FF-02C6-4051-8A16-42811DF18135}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射", "反射\反射.csproj", "{03A02652-0541-40E1-8DAD-F4DCA8F84A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "属性", "属性\属性.csproj", "{3208F77E-9252-4833-925D-778247899B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "索引器", "索引器\索引器.csproj", "{97C0F999-7DA2-495A-9C8F-7480AE29931B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -391,6 +395,30 @@ Global
 		{03A02652-0541-40E1-8DAD-F4DCA8F84A66}.Release|x64.Build.0 = Release|Any CPU
 		{03A02652-0541-40E1-8DAD-F4DCA8F84A66}.Release|x86.ActiveCfg = Release|Any CPU
 		{03A02652-0541-40E1-8DAD-F4DCA8F84A66}.Release|x86.Build.0 = Release|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Debug|x64.Build.0 = Debug|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Debug|x86.Build.0 = Debug|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Release|x64.ActiveCfg = Release|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Release|x64.Build.0 = Release|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Release|x86.ActiveCfg = Release|Any CPU
+		{3208F77E-9252-4833-925D-778247899B54}.Release|x86.Build.0 = Release|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Debug|x64.Build.0 = Debug|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Debug|x86.Build.0 = Debug|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Release|x64.ActiveCfg = Release|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Release|x64.Build.0 = Release|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Release|x86.ActiveCfg = Release|Any CPU
+		{97C0F999-7DA2-495A-9C8F-7480AE29931B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
