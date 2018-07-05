@@ -92,7 +92,9 @@ namespace DelegateAppl
             printString ps1 = new printString(WriteToScreen);
             printString ps2 = new printString(WriteToFile);
             SendString(ps1);
+            ps1("hello 2");
             SendString(ps2);
+            ps2("hello 2");
             Console.ReadKey();
         }
 
