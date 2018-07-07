@@ -180,79 +180,174 @@ using static System.Console;
 //    }//end of RecordBoilerInfo
 //}
 
-namespace SimpleEvent
+//namespace SimpleEvent
+//{
+//    public class EventTest
+//    {
+//        private int value;
+
+//        public delegate void NumManipulationHandler();
+
+//        public event NumManipulationHandler ChangeNum;
+
+//        protected virtual void OnNumChanged()
+//        {
+//            if (ChangeNum != null)
+//            {
+//                ChangeNum();
+//            }
+//            else
+//            {
+//                WriteLine("null -> event not fire");
+//                ReadKey();
+//            }
+//        }
+
+//        public EventTest()
+//        {
+//            int n = 5;
+//            SetValue(n);
+//        }
+
+//        public void SetValue(int n)
+//        {
+//            if (value != n)
+//            {
+//                value = n;
+//                OnNumChanged();
+//            }
+//            else
+//                WriteLine(value + " equal -> event not fire");
+//        }
+
+//        public void PrintValue()
+//        {
+//            WriteLine(value);
+//        }
+//    }
+
+//    public class SubscribeEvent
+//    {
+//        public void Printf()
+//        {
+//            WriteLine("event fire");
+//            ReadKey();
+//        }
+//    }
+
+//    public class MainClass
+//    {
+//        public static void Main()
+//        {
+//            EventTest e = new EventTest();
+
+//            SubscribeEvent v = new SubscribeEvent();
+
+//            e.ChangeNum += new EventTest.NumManipulationHandler(v.Printf);
+//            //e.ChangeNum += v.Printf;
+//            e.SetValue(5);
+//            e.SetValue(7);
+//            e.SetValue(11);
+//            e.SetValue(11);
+//            e.ChangeNum -= v.Printf;
+//            e.SetValue(13);
+
+//        }
+//    }
+//}
+
+namespace BoilerEventApp1
 {
-    public class EventTest
+    class Boiler
     {
-        private int value;
+        private int temp;
+        private int pressure;
 
-        public delegate void NumManipulationHandler();
-
-        public event NumManipulationHandler ChangeNum;
-
-        protected virtual void OnNumChanged()
+        public Boiler(int t, int p)
         {
-            if (ChangeNum != null)
-            {
-                ChangeNum();
-            }
-            else
-            {
-                WriteLine("null -> event not fire");
-                ReadKey();
-            }
+            temp = t;
+            pressure = p;
         }
 
-        public EventTest()
+        public int GetTemp()
         {
-            int n = 5;
-            SetValue(n);
+            return temp;
         }
 
-        public void SetValue(int n)
+        public int GetPressure()
         {
-            if (value != n)
-            {
-                value = n;
-                OnNumChanged();
-            }
-            else
-                WriteLine(value + " equal -> event not fire");
-        }
-
-        public void PrintValue()
-        {
-            WriteLine(value);
+            return pressure;
         }
     }
 
-    public class SubscribeEvent
+    class DelegateBoilerEvent
     {
-        public void Printf()
+        public delegate void BoilerLogHandler(string status);
+
+        public event BoilerLogHandler BoilerEventlog;
+
+        public void LogProcess()
         {
-            WriteLine("event fire");
-            ReadKey();
+            string remarks = "O. K";
+            Boiler b = new Boiler(100, 12);
+            int t = b.GetTemp();
+            int p = b.GetPressure();
+            if (t > 150 || t < 80 || p < 12 || p > 15)
+            {
+                remarks = "Need Maintenance";
+            }
+            OnBoilerEventLog("Logging Info:\n");
+            OnBoilerEventLog("Temparature " + t + "\nPressure: " + p);
+            OnBoilerEventLog("\nMessage: " + remarks);
+        }
+
+        protected void OnBoilerEventLog(string message)
+        {
+            if (BoilerEventlog != null)
+            {
+                BoilerEventlog(message);
+            }
         }
     }
 
-    public class MainClass
+    class BoilerInfoLogger
     {
-        public static void Main()
+        FileStream fs;
+        StreamWriter sw;
+
+        public BoilerInfoLogger(string filename)
         {
-            EventTest e = new EventTest();
+            fs = new FileStream(filename, FileMode.Append, FileAccess.Write);
+            sw = new StreamWriter(fs);
+        }
 
-            SubscribeEvent v = new SubscribeEvent();
+        public void Logger(string info)
+        {
+            sw.WriteLine(info);
+        }
 
-            e.ChangeNum += new EventTest.NumManipulationHandler(v.Printf);
-            //e.ChangeNum += v.Printf;
-            e.SetValue(5);
-            e.SetValue(7);
-            e.SetValue(11);
-            e.SetValue(11);
-            e.ChangeNum -= v.Printf;
-            e.SetValue(13);
+        public void Close()
+        {
+            sw.Close();
+            fs.Close();
+        }
+    }
 
+    public class RecordBoilerInfo
+    {
+        static void Logger(string info)
+        {
+            WriteLine(info);
+        }
+
+        static void Main(string[] args)
+        {
+            BoilerInfoLogger filelog = new BoilerInfoLogger("boiler.txt");
+            DelegateBoilerEvent boilerEvent = new DelegateBoilerEvent();
+            boilerEvent.BoilerEventlog += new DelegateBoilerEvent.BoilerLogHandler(Logger);
+            boilerEvent.BoilerEventlog += new DelegateBoilerEvent.BoilerLogHandler(filelog.Logger);
+            boilerEvent.LogProcess();
+            filelog.Close();
         }
     }
 }
-
