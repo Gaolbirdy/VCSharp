@@ -14,7 +14,7 @@ namespace BinaryReader类
         {
             WriteBinaryFile();
             ReadBinaryFile();
-            WriteLine("tesf of Mac");
+            WriteLine("Test for Mac");
             ReadKey();
         }
 
