@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "入门程序", "入门程序\入门程序.csproj", "{F0E19D41-8291-45B0-90D2-9D6F5195C764}"
 EndProject
@@ -86,6 +86,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryReader类", "BinaryReader类\BinaryReader类.csproj", "{774D69D8-E9B1-408D-88CE-6E70CB6B5506}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringWriter类", "StringWriter类\StringWriter类.csproj", "{34C54D4C-6A7B-49BF-A2A4-03CC87EBBC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReader类", "StringReader类\StringReader类.csproj", "{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileInfo类", "FileInfo类\FileInfo类.csproj", "{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -601,6 +605,30 @@ Global
 		{34C54D4C-6A7B-49BF-A2A4-03CC87EBBC27}.Release|x64.Build.0 = Release|Any CPU
 		{34C54D4C-6A7B-49BF-A2A4-03CC87EBBC27}.Release|x86.ActiveCfg = Release|Any CPU
 		{34C54D4C-6A7B-49BF-A2A4-03CC87EBBC27}.Release|x86.Build.0 = Release|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Debug|x64.Build.0 = Debug|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Release|x64.Build.0 = Release|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAAF72D2-5314-4929-B1CC-0EFA6BBA76E5}.Release|x86.Build.0 = Release|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Debug|x64.Build.0 = Debug|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Debug|x86.Build.0 = Debug|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|x64.ActiveCfg = Release|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|x64.Build.0 = Release|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|x86.ActiveCfg = Release|Any CPU
+		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
