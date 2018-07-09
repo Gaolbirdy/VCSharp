@@ -14,6 +14,7 @@ namespace BinaryReader类
         {
             WriteBinaryFile();
             ReadBinaryFile();
+            WriteLine("hello");
             ReadKey();
         }
 
@@ -36,6 +37,7 @@ namespace BinaryReader类
                 WriteLine("String value : " + reader.ReadString());
                 //WriteLine("Boolean value : " + reader.ReadChar());
                 WriteLine("Boolean value : " + reader.ReadBoolean());
+
             }
         }
     }
