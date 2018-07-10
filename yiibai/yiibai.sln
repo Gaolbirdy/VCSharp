@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReader类", "StringRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileInfo类", "FileInfo类\FileInfo类.csproj", "{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryInfo类", "DirectoryInfo类\DirectoryInfo类.csproj", "{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -629,6 +631,18 @@ Global
 		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|x64.Build.0 = Release|Any CPU
 		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|x86.ActiveCfg = Release|Any CPU
 		{E3138E9F-8C06-4166-BF8E-5EFF5E8A7D41}.Release|x86.Build.0 = Release|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Debug|x64.Build.0 = Debug|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Debug|x86.Build.0 = Debug|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Release|x64.ActiveCfg = Release|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Release|x64.Build.0 = Release|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3FD0844-4B1E-4F97-BED3-2ABBD8887FEE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
