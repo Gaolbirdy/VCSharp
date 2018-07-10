@@ -9,6 +9,7 @@ using static System.Console;
 
 namespace 序列化
 {
+    [Serializable]
     class Student
     {
         int rollno;
@@ -29,8 +30,9 @@ namespace 序列化
             BinaryFormatter fomatter = new BinaryFormatter();
 
             Student s = new Student(1010, "Curry");
-            fomatter.Serialize(stream, s);
 
+            fomatter.Serialize(stream, s);
+            
             stream.Close();
         }
     }
