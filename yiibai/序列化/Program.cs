@@ -12,8 +12,8 @@ namespace 序列化
     [Serializable]
     class Student
     {
-        int rollno;
-        string name;
+        public int rollno;
+        public string name;
 
         public Student(int rollno, string name)
         {
@@ -22,17 +22,34 @@ namespace 序列化
         }
     }
 
-    public class SerializeExample
+    //public class SerializeExample
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        FileStream stream = new FileStream("serialize.txt", FileMode.OpenOrCreate);
+    //        BinaryFormatter fomatter = new BinaryFormatter();
+
+    //        Student s = new Student(1010, "popo");
+
+    //        fomatter.Serialize(stream, s);
+            
+    //        stream.Close();
+    //        WriteLine("序列化完成");
+    //    }
+    //}
+
+    public class DeserializeExample
     {
         public static void Main(string[] args)
         {
             FileStream stream = new FileStream("serialize.txt", FileMode.OpenOrCreate);
-            BinaryFormatter fomatter = new BinaryFormatter();
+            BinaryFormatter formatter = new BinaryFormatter();
 
-            Student s = new Student(1010, "Curry");
+            Student s = (Student)formatter.Deserialize(stream);
 
-            fomatter.Serialize(stream, s);
-            
+            WriteLine("Rollno: " + s.rollno);
+            WriteLine("Name: " + s.name);
+
             stream.Close();
         }
     }

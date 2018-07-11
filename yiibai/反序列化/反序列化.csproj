@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6C7E327-B1D5-4253-ADDA-C8F495A090B2}</ProjectGuid>
+    <ProjectGuid>{C9B9C565-B272-4562-BEE8-99F1E7E2E10C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>反序列化</RootNamespace>
     <AssemblyName>反序列化</AssemblyName>
