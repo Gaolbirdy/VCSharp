@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "入门程序", "入门程序\入门程序.csproj", "{F0E19D41-8291-45B0-90D2-9D6F5195C764}"
 EndProject
@@ -108,6 +108,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程实例：Abort()方法", "线程实例：Abort()方法\线程实例：Abort()方法.csproj", "{B20317A9-6983-4054-90B7-7A8CE1ADFA26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程实例：Join()方法", "线程实例：Join()方法\线程实例：Join()方法.csproj", "{989A00B5-3ED4-4A0E-9EFC-BB55F818E879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程命名实例", "线程命名实例\线程命名实例.csproj", "{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程示例：优先级", "线程示例：优先级\线程示例：优先级.csproj", "{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程同步", "线程同步\线程同步.csproj", "{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -755,6 +761,42 @@ Global
 		{989A00B5-3ED4-4A0E-9EFC-BB55F818E879}.Release|x64.Build.0 = Release|Any CPU
 		{989A00B5-3ED4-4A0E-9EFC-BB55F818E879}.Release|x86.ActiveCfg = Release|Any CPU
 		{989A00B5-3ED4-4A0E-9EFC-BB55F818E879}.Release|x86.Build.0 = Release|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Debug|x64.Build.0 = Debug|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Release|x64.ActiveCfg = Release|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Release|x64.Build.0 = Release|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{5200C96D-6C1F-4EAB-88F6-08787AECB3B0}.Release|x86.Build.0 = Release|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Debug|x64.Build.0 = Debug|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Release|x64.ActiveCfg = Release|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Release|x64.Build.0 = Release|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A488AF5-ABFC-4F2D-A2A9-C2A965656655}.Release|x86.Build.0 = Release|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Debug|x64.Build.0 = Debug|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Debug|x86.Build.0 = Debug|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Release|x64.ActiveCfg = Release|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Release|x64.Build.0 = Release|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Release|x86.ActiveCfg = Release|Any CPU
+		{86D9FB13-F2DC-4031-ABB2-425D39F2AB34}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

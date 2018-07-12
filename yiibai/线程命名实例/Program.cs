@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using static System.Console;
 
-namespace 线程实例_Join__方法
+namespace 线程命名实例
 {
     public class MyThread
     {
@@ -14,8 +14,8 @@ namespace 线程实例_Join__方法
         {
             for (int i = 0; i < 5; i++)
             {
-                WriteLine("Thread1: " + i);
-                Thread.Sleep(500);
+                Thread t = Thread.CurrentThread;
+                WriteLine(t.Name + " is running at: " + i);
             }
         }
     }
@@ -28,8 +28,10 @@ namespace 线程实例_Join__方法
             Thread t1 = new Thread(new ThreadStart(mt.Thread1));
             Thread t2 = new Thread(new ThreadStart(mt.Thread1));
             Thread t3 = new Thread(new ThreadStart(mt.Thread1));
+            t1.Name = "Thread1";
+            t2.Name = "Thread2";
+            t3.Name = "Thread3";
             t1.Start();
-            t1.Join();
             t2.Start();
             t3.Start();
         }
