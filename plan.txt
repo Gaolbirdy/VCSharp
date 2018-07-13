@@ -7,9 +7,6 @@ runoob css3
 runoob js
 
 
-siki c# 基础练习题
-siki c# 面向对象练习题
-
 c#入门经典
 
 
